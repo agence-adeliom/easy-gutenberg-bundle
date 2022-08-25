@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<routes xmlns="http://symfony.com/schema/routing"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://symfony.com/schema/routing
+        http://symfony.com/schema/routing/routing-1.0.xsd">
+
+    <route methods="GET" id="easy_gutenberg.oembed" controller="Adeliom\EasyGutenbergBundle\Controllers\OEmbedController::show" path="/bundles/easy-gutenberg/oembed" ></route>
+    <route methods="GET" id="easy_gutenberg.block_renderer" controller="Adeliom\EasyGutenbergBundle\Controllers\BlockRendererController::show" path="/bundles/easy-gutenberg/block-renderer" ></route>
+    <route methods="GET" id="easy_gutenberg.fetch_blocks" controller="Adeliom\EasyGutenbergBundle\Controllers\BlockRendererController::fetchBlocks" path="/bundles/easy-gutenberg/fetch-blocks" ></route>
+</routes>
