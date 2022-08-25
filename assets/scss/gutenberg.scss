@@ -1,0 +1,113 @@
+@use "sass:math";
+
+@import "~@wordpress/base-styles/animations";
+@import "~@wordpress/base-styles/breakpoints";
+@import "~@wordpress/base-styles/colors";
+@import "~@wordpress/base-styles/mixins";
+@import "~@wordpress/base-styles/default-custom-properties";
+@import "~@wordpress/base-styles/variables";
+@import "~@wordpress/base-styles/z-index";
+
+
+@import "~@wordpress/components/src/style.scss";
+@import "~@wordpress/block-editor/src/style.scss";
+@import "~@wordpress/block-library/src/style.scss";
+@import "~@wordpress/block-library/src/theme.scss";
+@import "~@wordpress/block-library/src/editor.scss";
+@import "~@wordpress/format-library/src/style.scss";
+
+$sidebar-width: 300px;
+$border-color: #e0e0e0;
+$test: 1;
+
+.block-editor-container {
+    position: relative;
+    border: solid 1px $border-color;
+    border-radius: 2px;
+
+    input, textarea {
+        box-sizing: border-box;
+    }
+
+    .block-editor {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .block-editor__header {
+        grid-area: header;
+        display: flex;
+        justify-content: space-between;
+        padding: .5rem;
+        border-bottom: solid 1px $border-color;
+    }
+
+    .block-editor__header-toolbar {
+        display: flex;
+    }
+
+    .block-editor__content {
+        display: flex;
+    }
+
+
+
+    .block-editor__editor {
+        flex: 1;
+        overflow-y: auto;
+        background: white;
+        & > div,
+        .editor-block-tools,
+        .editor-styles-wrapper,
+        .block-editor-writing-flow,
+        .block-editor-writing-flow > div,
+        .block-editor-writing-flow > div > div,
+        .block-editor-block-list__layout{
+            height: auto;
+            min-height: 100%;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .block-editor-block-list__layout{
+            padding: 1rem 1rem 6rem;
+        }
+    }
+
+    .block-editor__sidebar {
+        flex: 0 0 $sidebar-width;
+        overflow-y: auto;
+        border-left: 1px solid $border-color;
+
+        .components-panel {
+            box-sizing: content-box;
+            height: 100%;
+            position: relative;
+            border: none;
+        }
+    }
+
+    .block-editor-inserter__menu {
+        background-color: #FFFFFF;
+    }
+
+    .block-editor-inserter__popover {
+        .components-popover__content  {
+            background-color: #FFFFFF;
+            max-height: 400px !important;
+        }
+
+        .block-editor-inserter__menu {
+            margin: -12px -8px;
+        }
+    }
+
+    iframe, img {
+        border: none;
+    }
+
+    .block-editor-button-block-appender{
+        margin-top: 0.5rem;
+    }
+}

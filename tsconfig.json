@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "outDir": "src/Resources/public",
+    "sourceMap": true,
+    "strict": true,
+    "useUnknownInCatchVariables": false,
+    "noImplicitReturns": true,
+    "noImplicitAny": false,
+    "module": "esnext",
+    "target": "es2015",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowJs": true,
+    "jsx": "react",
+    "jsxFactory": "createElement"
+  },
+  "include": [
+    "./assets/**/*"
+  ],
+  "exclude": [
+    "./src"
+  ]
+}

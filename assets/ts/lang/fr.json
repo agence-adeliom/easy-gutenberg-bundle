@@ -1,0 +1,3303 @@
+{
+  "": {
+    "domain": "messages",
+    "plural-forms": "nplurals=2; plural=n > 1;",
+    "lang": "fr"
+  },
+  " … ": [
+    " … "
+  ],
+  "\"Post Title\"": [
+    "« Titre de l’article »"
+  ],
+  "\"Read more\" link text": [
+    "Texte du lien « Lire la suite »"
+  ],
+  "%1$d pattern found for \"%2$s\"": [
+    "%1$d composition trouvé pour « %2$s »",
+    "%1$d compositions trouvées pour « %2$s »"
+  ],
+  "%1$s %2$s": [
+    "%1$s : %2$s"
+  ],
+  "%1$s (%2$d of %3$d)": [
+    "%1$s (%2$d sur %3$d)"
+  ],
+  "%1$s response to %2$s": [
+    "%1$s réponse à %2$s",
+    "%1$s réponses à %2$s"
+  ],
+  "%d block": [
+    "%d bloc",
+    "%d blocs"
+  ],
+  "%d block added.": [
+    "%d bloc ajouté.",
+    "%d blocs ajoutés."
+  ],
+  "%d result found, use up and down arrow keys to navigate.": [
+    "%d résultat trouvé, vous pouvez naviguer avec les touches haut et bas.",
+    "%d résultats trouvés, vous pouvez naviguer avec les touches haut et bas."
+  ],
+  "%d result found.": [
+    "%d résultat trouvé.",
+    "%d résultats trouvés."
+  ],
+  "%d word": [
+    "%d mot",
+    "%d mots"
+  ],
+  "%s <span>says:</span>": [
+    "%s <span>a dit :</span>"
+  ],
+  "%s Avatar": [
+    "Avatar de %s"
+  ],
+  "%s URL": [
+    "URL %s"
+  ],
+  "%s block added": [
+    "Bloc %s ajouté"
+  ],
+  "%s block selected.": [
+    "%s bloc sélectionné.",
+    "%s blocs sélectionnés."
+  ],
+  "%s blocks deselected.": [
+    "%s blocs désélectionnés."
+  ],
+  "%s deselected.": [
+    "%s désélectionné."
+  ],
+  "%s label": [
+    "Libellé %s"
+  ],
+  "%s link": [
+    "Lien %s"
+  ],
+  "%s link (locked)": [
+    "Lien %s (verrouillé)"
+  ],
+  "%s navigation": [
+    "Navigation %s"
+  ],
+  "%s responses": [
+    "%s réponse",
+    "%s réponses"
+  ],
+  "%s: Change block type or style": [
+    "Modifier le type ou le style du bloc"
+  ],
+  "(%s: color %s)": [
+    "(%s : couleur %s)"
+  ],
+  "(%s: gradient %s)": [
+    "(%s : dégradé %s)"
+  ],
+  "(Note: many devices and browsers do not display this text.)": [
+    "(note : certains appareils et navigateurs n’afficheront pas ce texte)"
+  ],
+  "(Untitled)": [
+    "(Sans titre)"
+  ],
+  "(no title)": [
+    "(pas de titre)"
+  ],
+  "- Select -": [
+    "- Sélectionner -"
+  ],
+  "// A \"block\" is the abstract term used\n// to describe units of markup that\n// when composed together, form the\n// content or layout of a page.\nregisterBlockType( name, settings );": [
+    "// Un « bloc » est un terme abstrait utilisé\n// pour décrire une unité de balisage qui\n// lorsque elle est utilisée avec d’autres,\n// forme le contenu ou la mise en page\n// d’une publication.\nregisterBlockType( name, settings );"
+  ],
+  "100": [
+    "100"
+  ],
+  "10:16": [
+    "10:16"
+  ],
+  "16:10": [
+    "16:10"
+  ],
+  "16:9": [
+    "16:9"
+  ],
+  "25 / 50 / 25": [
+    "25 / 50 / 25"
+  ],
+  "2:3": [
+    "2:3"
+  ],
+  "30 / 70": [
+    "30 / 70"
+  ],
+  "33 / 33 / 33": [
+    "33 / 33 / 33"
+  ],
+  "3:2": [
+    "3:2"
+  ],
+  "3:4": [
+    "3:4"
+  ],
+  "4:3": [
+    "4:3"
+  ],
+  "50 / 50": [
+    "50 / 50"
+  ],
+  "70 / 30": [
+    "70 / 30"
+  ],
+  "9:16": [
+    "9:16"
+  ],
+  "<a>Create a new post</a> for this feed.": [
+    "<a>Créer une nouvelle publication</a> pour ce flux."
+  ],
+  "<strong>Snow Patrol</strong>": [
+    "<strong>Patrouille des neiges</strong>"
+  ],
+  "A WordPress Commenter": [
+    "Un commentateur ou commentatrice WordPress"
+  ],
+  "A decorative arrow appended to the next and previous comments link.": [
+    "Une flèche décorative ajoutée après les liens des commentaires précédents et suivants."
+  ],
+  "A decorative arrow appended to the next and previous page link.": [
+    "Une flèche décorative ajoutée au lien de la page suivante et précédente."
+  ],
+  "A link to a category.": [
+    "Un lien vers une catégorie."
+  ],
+  "A link to a custom URL.": [
+    "Un lien vers une URL personnalisée"
+  ],
+  "A link to a page.": [
+    "Un lien vers une page."
+  ],
+  "A link to a post.": [
+    "Un lien vers un article."
+  ],
+  "A link to a tag.": [
+    "Un lien vers une étiquette."
+  ],
+  "A tip for using the block editor": [
+    "Une astuce pour l’utilisation de l’éditeur de bloc"
+  ],
+  "A → Z": [
+    "A \t Z"
+  ],
+  "ADD MEDIA": [
+    "AJOUTER UN MÉDIA"
+  ],
+  "About": [
+    "À propos"
+  ],
+  "Add": [
+    "Ajouter"
+  ],
+  "Add \"read more\" link text": [
+    "Texte du lien « Lire la suite »"
+  ],
+  "Add Media": [
+    "Ajouter un média"
+  ],
+  "Add a block": [
+    "Ajouter un bloc"
+  ],
+  "Add a featured image": [
+    "Ajouter une image mise en avant"
+  ],
+  "Add a site logo": [
+    "Ajoutez un logo de site"
+  ],
+  "Add an anchor": [
+    "Ajouter une ancre"
+  ],
+  "Add button text…": [
+    "Ajouter un texte de bouton…"
+  ],
+  "Add caption": [
+    "Ajouter une légende"
+  ],
+  "Add citation": [
+    "Ajouter une source"
+  ],
+  "Add default block": [
+    "Ajouter un bloc par défaut"
+  ],
+  "Add home link": [
+    "Ajouter un lien vers la page d’accueil"
+  ],
+  "Add label…": [
+    "Ajouter un libellé…"
+  ],
+  "Add link": [
+    "Ajouter un lien"
+  ],
+  "Add link to featured image": [
+    "Ajouter un lien à l’image mise en avant"
+  ],
+  "Add link…": [
+    "Ajouter un lien…"
+  ],
+  "Add pattern": [
+    "Ajouter une composition"
+  ],
+  "Add quote": [
+    "Ajouter une citation"
+  ],
+  "Add submenu": [
+    "Ajouter un sous-menu"
+  ],
+  "Add text or blocks that will display when the query returns no results.": [
+    "Ajoutez du texte ou des blocs qui s’afficheront lorsque la requête ne renvoie aucun résultat."
+  ],
+  "Add text over image": [
+    "Ajouter du texte au-dessus de l’image"
+  ],
+  "Add text…": [
+    "Ajoutez du texte…"
+  ],
+  "Add tracks": [
+    "Ajouter des pistes"
+  ],
+  "Additional CSS class(es)": [
+    "Classe(s) CSS additionnelle(s)"
+  ],
+  "Advanced": [
+    "Avancé"
+  ],
+  "After Conversion": [
+    "Après conversion"
+  ],
+  "Align": [
+    "Alignement"
+  ],
+  "Align center": [
+    "Centrer"
+  ],
+  "Align column center": [
+    "Aligner la colonne au centre"
+  ],
+  "Align column left": [
+    "Aligner la colonne à gauche"
+  ],
+  "Align column right": [
+    "Aligner la colonne à droite"
+  ],
+  "Align items bottom": [
+    "Aligner les éléments en bas"
+  ],
+  "Align items center": [
+    "Aligner les éléments au centre"
+  ],
+  "Align items top": [
+    "Aligner les éléments en haut"
+  ],
+  "Align left": [
+    "Aligner à gauche"
+  ],
+  "Align right": [
+    "Aligner à droite"
+  ],
+  "Align text center": [
+    "Centrer le texte"
+  ],
+  "Align text left": [
+    "Aligner le texte à gauche"
+  ],
+  "Align text right": [
+    "Aligner le texte à droite"
+  ],
+  "Alignment option\u0004None": [
+    "Aucun"
+  ],
+  "All": [
+    "Tous"
+  ],
+  "All gallery image links updated to: %s": [
+    "Tous les liens des images de la galerie ont été remplacés par : %s"
+  ],
+  "All gallery image sizes updated to: %s": [
+    "Toutes les tailles d’image de la galerie ont été mises à jour à %s"
+  ],
+  "All gallery images updated to not open in new tab": [
+    "Toutes les images de la galerie sont réglées pour ne pas s‘ouvrir dans un nouvel onglet"
+  ],
+  "All gallery images updated to open in new tab": [
+    "Toutes les images de la galerie sont réglées pour s‘ouvrir dans un nouvel onglet"
+  ],
+  "Allow to wrap to multiple lines": [
+    "Autoriser le regroupement de lignes multiples"
+  ],
+  "Alt text (alternative text)": [
+    "Texte alternatif (alt)"
+  ],
+  "Always": [
+    "Toujours"
+  ],
+  "An example title": [
+    "Un exemple de titre"
+  ],
+  "An unknown error occurred during creation. Please try again.": [
+    "Une erreur inconnue est survenue durant la création. Veuillez réessayer."
+  ],
+  "Anonymous": [
+    "Anonyme"
+  ],
+  "Appearance": [
+    "Apparence"
+  ],
+  "Apply": [
+    "Appliquer"
+  ],
+  "Apply duotone filter": [
+    "Appliquer un filtre duotone"
+  ],
+  "Archive Title": [
+    "Titre d’archive"
+  ],
+  "Archive title": [
+    "Titre d’archive"
+  ],
+  "Archives settings": [
+    "Réglages des archives"
+  ],
+  "Are you sure you want to delete this navigation menu?": [
+    "Confirmez-vous vouloir supprimer ce menu de navigation ?"
+  ],
+  "Area": [
+    "Zone"
+  ],
+  "Arrange blocks horizontally.": [
+    "Disposer les blocs horizontalement."
+  ],
+  "Arrange blocks vertically.": [
+    "Disposez les blocs verticalement."
+  ],
+  "Arrow": [
+    "Flèche"
+  ],
+  "Arrow option for Comments Pagination Next/Previous blocks\u0004Arrow": [
+    "Flèches"
+  ],
+  "Arrow option for Comments Pagination Next/Previous blocks\u0004Chevron": [
+    "Chevrons"
+  ],
+  "Arrow option for Comments Pagination Next/Previous blocks\u0004None": [
+    "Aucune"
+  ],
+  "Arrow option for Query Pagination Next/Previous blocks\u0004Arrow": [
+    "Flèche"
+  ],
+  "Arrow option for Query Pagination Next/Previous blocks\u0004Chevron": [
+    "Chevron"
+  ],
+  "Arrow option for Query Pagination Next/Previous blocks\u0004None": [
+    "Aucun"
+  ],
+  "Aspect Ratio": [
+    "Proportion de taille"
+  ],
+  "Attachment Page": [
+    "Page du fichier joint"
+  ],
+  "Attachment page": [
+    "Page de fichier joint"
+  ],
+  "Attempt Block Recovery": [
+    "Tentative de récupération du bloc"
+  ],
+  "Audio": [
+    "Son"
+  ],
+  "Audio caption text": [
+    "Texte de légende du son"
+  ],
+  "Audio settings": [
+    "Réglages du son"
+  ],
+  "Author": [
+    "Auteur/autrice"
+  ],
+  "Author Biography": [
+    "Biographie de l’auteur/autrice"
+  ],
+  "Author Settings": [
+    "Réglages de l’auteur ou de l’autrice"
+  ],
+  "Authors": [
+    "Auteur·e"
+  ],
+  "Auto": [
+    "Automatique"
+  ],
+  "Autoplay": [
+    "Lecture automatique"
+  ],
+  "Autoplay may cause usability issues for some users.": [
+    "La lecture automatique peut causer des problèmes d’accessibilité pour certaines personnes."
+  ],
+  "Avatar size": [
+    "Taille de l’avatar"
+  ],
+  "Background": [
+    "Arrière-plan"
+  ],
+  "Black": [
+    "Noir"
+  ],
+  "Block %1$d of %2$d, Level %3$d": [
+    "Bloc %1$d sur %2$d, niveau %3$d"
+  ],
+  "Block %1$s is at the beginning of the content and can’t be moved left": [
+    "Le bloc %1$s est au début du contenu et ne peut être déplacé à gauche"
+  ],
+  "Block %1$s is at the beginning of the content and can’t be moved right": [
+    "Le bloc « %1$s » est au début du contenu et ne peut être déplacé plus haut"
+  ],
+  "Block %1$s is at the beginning of the content and can’t be moved up": [
+    "Le bloc %1$s est au début du contenu et ne peut pas être déplacé plus haut"
+  ],
+  "Block %1$s is at the end of the content and can’t be moved down": [
+    "Le bloc %1$s est à la fin du contenu et ne peut pas être déplacé plus bas"
+  ],
+  "Block %1$s is at the end of the content and can’t be moved left": [
+    "Le bloc %1$s est à la fin du contenu et ne peut pas être déplacé à gauche"
+  ],
+  "Block %1$s is at the end of the content and can’t be moved right": [
+    "Le bloc %1$s est à la fin du contenu et ne peut pas être déplacé à droite"
+  ],
+  "Block %s is the only block, and cannot be moved": [
+    "Le bloc « %s » est le seul bloc et ne peut pas être déplacé"
+  ],
+  "Block Patterns": [
+    "Modèles de blocs"
+  ],
+  "Block breadcrumb": [
+    "Ascendance du bloc"
+  ],
+  "Block cannot be rendered inside itself.": [
+    "Le bloc ne peut pas être rendu à l’intérieur de lui-même."
+  ],
+  "Block has been deleted or is unavailable.": [
+    "Le bloc a été supprimé ou n’est plus disponible."
+  ],
+  "Block navigation structure": [
+    "Structure de navigation de blocs"
+  ],
+  "Block pattern \"%s\" inserted.": [
+    "Composition de bloc « %s » insérée."
+  ],
+  "Block spacing": [
+    "Espacement des blocs"
+  ],
+  "Block tools": [
+    "Outils de bloc"
+  ],
+  "Block variations": [
+    "Variations du bloc"
+  ],
+  "Block vertical alignment setting\u0004Align bottom": [
+    "Aligner en bas"
+  ],
+  "Block vertical alignment setting\u0004Align middle": [
+    "Aligner au milieu"
+  ],
+  "Block vertical alignment setting\u0004Align top": [
+    "Aligner en haut"
+  ],
+  "Block vertical alignment setting label\u0004Change vertical alignment": [
+    "Modifier l’alignement vertical"
+  ],
+  "Block: %s": [
+    "Bloc : %s"
+  ],
+  "Blocks": [
+    "Blocs"
+  ],
+  "Blocks cannot be moved down as they are already at the bottom": [
+    "Les blocs ne peuvent pas être déplacés vers le bas car ils sont déjà tout en bas."
+  ],
+  "Blocks cannot be moved up as they are already at the top": [
+    "Les blocs ne peuvent pas être déplacés vers le haut car ils sont déjà tout en haut."
+  ],
+  "Blog posts can be \"stickied\", a feature that places them at the top of the front page of posts, keeping it there until new sticky posts are published.": [
+    "Les articles peuvent être épinglés, ce qui leur permet de remonter en haut de la liste des articles jusqu’à ce qu’un nouvel article épinglé prenne leur place."
+  ],
+  "Blush bordeaux": [
+    "Bordeaux rougissant"
+  ],
+  "Blush light purple": [
+    "Violet clair rougissant"
+  ],
+  "Body cell text": [
+    "Texte de la cellule du corps"
+  ],
+  "Border": [
+    "Bordure"
+  ],
+  "Border radius": [
+    "Rayon de la bordure"
+  ],
+  "Bottom left": [
+    "En bas à gauche"
+  ],
+  "Bottom right": [
+    "En bas à droite"
+  ],
+  "Briefly describe the link to help screen reader users.": [
+    "Décrivez brièvement le lien pour aider les utilisateurs et utilisatrices de lecteurs d’écrans."
+  ],
+  "Browse all": [
+    "Tout parcourir"
+  ],
+  "Browse all. This will open the main inserter panel in the editor toolbar.": [
+    "Tout parcourir. Ceci va ouvrir l’outil d’insertion dans la barre d’outils de l’éditeur."
+  ],
+  "Browser default": [
+    "Navigateur par défaut"
+  ],
+  "Button inside": [
+    "Bouton à l’intérieur"
+  ],
+  "Button outside": [
+    "Bouton à l’extérieur"
+  ],
+  "Button text": [
+    "Texte du bouton"
+  ],
+  "Button width": [
+    "Largeur du bouton"
+  ],
+  "Inspector": [
+    "Paramètres"
+  ],
+  "Calendar": [
+    "Calendrier"
+  ],
+  "Call to Action": [
+    "Appel à l’action"
+  ],
+  "Undo": [
+    "Annuler"
+  ],
+  "Redo": [
+    "Refaire"
+  ],
+  "Cancel": [
+    "Annuler"
+  ],
+  "Capitalize": [
+    "Passer en majuscules"
+  ],
+  "Captions": [
+    "Légendes"
+  ],
+  "Carousel view": [
+    "Mode carrousel"
+  ],
+  "Categories": [
+    "Catégories"
+  ],
+  "Categories settings": [
+    "Réglages des catégories"
+  ],
+  "Category Link": [
+    "Lien de catégorie"
+  ],
+  "Change Date": [
+    "Modifier la date"
+  ],
+  "Change a block's type by pressing the block icon on the toolbar.": [
+    "Changer un type de bloc en cliquant sur l’icône de bloc sur la barre d’outils."
+  ],
+  "Change alignment": [
+    "Modifier l’alignement"
+  ],
+  "Change button position": [
+    "Modifier la position du bouton"
+  ],
+  "Change column alignment": [
+    "Modifier l’alignement des colonnes"
+  ],
+  "Change content position": [
+    "Modifier la position du contenu"
+  ],
+  "Change heading level": [
+    "Changer le niveau de titre"
+  ],
+  "Change items justification": [
+    "Modifier la justification des blocs"
+  ],
+  "Change matrix alignment": [
+    "Modifier l’alignement matriciel"
+  ],
+  "Change text alignment": [
+    "Modifier l’alignement du texte"
+  ],
+  "Change type of %d block": [
+    "Modifier le type de %d bloc",
+    "Modifier le type de %d blocs"
+  ],
+  "Chapters": [
+    "Chapitres"
+  ],
+  "Choose": [
+    "Choisir"
+  ],
+  "Choose a %s": [
+    "Choisissez un %s"
+  ],
+  "Choose a format": [
+    "Choisir un format"
+  ],
+  "Choose a pattern": [
+    "Choisir une composition"
+  ],
+  "Choose a pattern for the query loop or start blank.": [
+    "Choisissez un modèle pour la boucle de requête ou commencez depuis un modèle vide."
+  ],
+  "Choose an existing %s or create a new one.": [
+    "%s : choisissez une zone existante ou créez en une nouvelle."
+  ],
+  "Choose specific attributes to restrict or lock all available options.": [
+    "Choisissez des attributs spécifiques pour restreindre ou verrouiller toutes les options disponibles."
+  ],
+  "Choose variation": [
+    "Choisir une variante"
+  ],
+  "Classic": [
+    "Classique"
+  ],
+  "Classic Menus": [
+    "Classic Menus"
+  ],
+  "Classic menu import failed.": [
+    "Échec de l’importation du menu classique."
+  ],
+  "Classic menu imported successfully.": [
+    "Menu classique importé."
+  ],
+  "Classic menu importing.": [
+    "Menu classique en cours d’importation."
+  ],
+  "Clear Media": [
+    "Effacer le média"
+  ],
+  "Clear selection.": [
+    "Effacer la sélection."
+  ],
+  "Click plus to add": [
+    "Cliquez sur le « + » pour ajouter"
+  ],
+  "Close": [
+    "Fermer"
+  ],
+  "Close menu": [
+    "Fermer le menu"
+  ],
+  "Code": [
+    "Code"
+  ],
+  "Code is Poetry": [
+    "Le code est une poésie."
+  ],
+  "Collapses the navigation options in a menu icon opening an overlay.": [
+    "Replie les options de navigation dans une icône de menu ouvrant un calque superposé."
+  ],
+  "Color": [
+    "Couleur"
+  ],
+  "Column %d text": [
+    "Texte de la colonne %d"
+  ],
+  "Column count": [
+    "Nombre de colonnes"
+  ],
+  "Column settings": [
+    "Réglages de la colonne"
+  ],
+  "Columns": [
+    "Colonnes"
+  ],
+  "Comment": [
+    "Commentaire"
+  ],
+  "Commenter avatars come from <a>Gravatar</a>": [
+    "Les avatars des personnes ayant commenté proviennent de <a>Gravatar</a>"
+  ],
+  "Comments Pagination block: paging comments is disabled in the Discussion Settings": [
+    "Bloc de pagination des commentaires : la pagination des commentaires est désactivée dans les réglages de discussion"
+  ],
+  "Configure overlay menu": [
+    "Configurer le menu superposé"
+  ],
+  "Configure the visual appearance of the button opening the overlay menu.": [
+    "Configurez l‘apparence visuelle du bouton ouvrant le menu superposé."
+  ],
+  "Confirm": [
+    "Confirmer"
+  ],
+  "Contact": [
+    "Contact"
+  ],
+  "Contact us": [
+    "Nous contacter"
+  ],
+  "Content": [
+    "Contenu"
+  ],
+  "Convert": [
+    "Convertir"
+  ],
+  "Convert to Blocks": [
+    "Convertir en blocs"
+  ],
+  "Convert to Classic Block": [
+    "Convertir en bloc Classique"
+  ],
+  "Convert to HTML": [
+    "Convertir en HTML"
+  ],
+  "Convert to Link": [
+    "Convertir en lien"
+  ],
+  "Convert to blocks": [
+    "Convertir en blocs"
+  ],
+  "Convert to links": [
+    "Convertir en liens"
+  ],
+  "Convert to ordered list": [
+    "Convertir en liste ordonnée"
+  ],
+  "Convert to regular blocks": [
+    "Convertir en blocs normaux"
+  ],
+  "Convert to unordered list": [
+    "Convertir en liste non-ordonnée"
+  ],
+  "Cool to warm spectrum": [
+    "Spectre froid vers chaud"
+  ],
+  "Copied \"%s\" to clipboard.": [
+    "« %s » copié dans le presse-papier."
+  ],
+  "Copied %d block to clipboard.": [
+    "%d bloc copié dans le presse-papier.",
+    "%d blocs copiés dans le presse-papier."
+  ],
+  "Copied URL to clipboard.": [
+    "URL copiée dans le presse-papiers."
+  ],
+  "Copy": [
+    "Copier"
+  ],
+  "Copy URL": [
+    "Copier l’URL"
+  ],
+  "Could not edit image. %s": [
+    "Impossible de modifier l’image. %s"
+  ],
+  "Cover": [
+    "Bannière"
+  ],
+  "Create": [
+    "Créer"
+  ],
+  "Create Table": [
+    "Créer un tableau"
+  ],
+  "Create a new menu?": [
+    "Créer un nouveau menu ?"
+  ],
+  "Create a two-tone color effect without losing your original image.": [
+    "Créer un effet sur deux tons sans perdre votre image d’origine."
+  ],
+  "Create draft page: <mark>%s</mark>": [
+    "Nouvelle page : <mark>%s</mark>"
+  ],
+  "Create draft post: <mark>%s</mark>": [
+    "Créer un article : <mark>%s</mark>"
+  ],
+  "Create from '%s'": [
+    "Créer à partir de « %s »"
+  ],
+  "Create new menu": [
+    "Créez un nouveau menu"
+  ],
+  "Create: <mark>%s</mark>": [
+    "Créer : <mark>%s</mark>"
+  ],
+  "Creating": [
+    "Création"
+  ],
+  "Creating Navigation Menu.": [
+    "Création d’un menu de navigation."
+  ],
+  "Crop": [
+    "Recadrer"
+  ],
+  "Crop image to fill entire column": [
+    "Recadrer l’image pour remplir toute la colonne"
+  ],
+  "Crop images": [
+    "Recadrer les images"
+  ],
+  "Current": [
+    "Actuel"
+  ],
+  "Current media URL:": [
+    "URL du média actuel :"
+  ],
+  "Currently selected": [
+    "Actuellement sélectionné"
+  ],
+  "Currently selected font appearance: %s": [
+    "Apparence de la police actuellement sélectionnée : %s"
+  ],
+  "Currently selected font style: %s": [
+    "Style de la police actuellement sélectionnée : %s"
+  ],
+  "Currently selected font weight: %s": [
+    "Graisse de la police actuellement sélectionnée : %s"
+  ],
+  "Currently selected link settings": [
+    "Réglages du lien actuellement sélectionné"
+  ],
+  "Custom": [
+    "Personnalisée"
+  ],
+  "Custom Link": [
+    "Lien personnalisé"
+  ],
+  "Custom format": [
+    "Format personnalisé"
+  ],
+  "Customize the width for all elements that are assigned to the center or wide columns.": [
+    "Personnalisez la largeur de tous les éléments assignés aux colonnes centrales ou larges."
+  ],
+  "Cyan bluish gray": [
+    "Gris bleuté cyan"
+  ],
+  "Dashed": [
+    "Tiret"
+  ],
+  "Date format": [
+    "Format de date"
+  ],
+  "Day": [
+    "Jour"
+  ],
+  "December 6, 2018": [
+    "6 décembre 2018"
+  ],
+  "Decoration": [
+    "Décoration"
+  ],
+  "Default": [
+    "Valeur par défaut"
+  ],
+  "Default (<div>)": [
+    "Par défaut (<div>)"
+  ],
+  "Default Avatar": [
+    "Avatar par défaut"
+  ],
+  "Default Style": [
+    "Style par défaut"
+  ],
+  "Default based on area (%s)": [
+    "Par défaut en fonction de la zone (%s)"
+  ],
+  "Default format": [
+    "Format par défaut"
+  ],
+  "Delete %s": [
+    "Supprimer %s"
+  ],
+  "Delete column": [
+    "Supprimer la colonne"
+  ],
+  "Delete menu": [
+    "Supprimer le menu"
+  ],
+  "Delete row": [
+    "Supprimer la ligne"
+  ],
+  "Delete selection.": [
+    "Supprimer la sélection."
+  ],
+  "Describe the purpose of the image": [
+    "Décrivez l’objet de l’image"
+  ],
+  "Describe the role of this image on the page.": [
+    "Décrivez le rôle de cette image sur la page."
+  ],
+  "Description": [
+    "Description"
+  ],
+  "Descriptions": [
+    "Descriptions"
+  ],
+  "Desktop": [
+    "Ordinateur de bureau"
+  ],
+  "Dimensions": [
+    "Dimensions"
+  ],
+  "Disable movement": [
+    "Désactiver le mouvement"
+  ],
+  "Display": [
+    "Afficher"
+  ],
+  "Display Settings": [
+    "Réglages de l’affichage"
+  ],
+  "Display a list of your most recent posts, excluding sticky posts.": [
+    "Affichez une liste de vos publications les plus récentes, excluant les publications épinglées."
+  ],
+  "Display a post's categories.": [
+    "Afficher les catégories d’un article."
+  ],
+  "Display a post's tags.": [
+    "Affiche les étiquettes d’un article."
+  ],
+  "Display as dropdown": [
+    "Afficher comme liste déroulante"
+  ],
+  "Display author": [
+    "Afficher l’auteur ou l’autrice"
+  ],
+  "Display author name": [
+    "Afficher le nom de l’auteur ou de l’autrice"
+  ],
+  "Display avatar": [
+    "Afficher l’avatar"
+  ],
+  "Display date": [
+    "Afficher la date"
+  ],
+  "Display excerpt": [
+    "Afficher l’extrait"
+  ],
+  "Display featured image": [
+    "Afficher l’image mise en avant"
+  ],
+  "Display login as form": [
+    "Affiche la connexion sous forme d’un formulaire"
+  ],
+  "Display post date": [
+    "Afficher la date de publication"
+  ],
+  "Display settings": [
+    "Réglages d’affichage"
+  ],
+  "Display the archive title based on the queried object.": [
+    "Affiche le titre de l’archive en fonction de l’objet recherché."
+  ],
+  "Display the title as a link": [
+    "Afficher le titre sous forme de lien"
+  ],
+  "Displays more block tools": [
+    "Affiche plus d’outils de bloc"
+  ],
+  "Displays the post link that follows the current post.": [
+    "Affiche le lien de l’article qui suit l’article actuel."
+  ],
+  "Displays the post link that precedes the current post.": [
+    "Affiche le lien de l’article qui précède l’article actuel."
+  ],
+  "Document": [
+    "Document"
+  ],
+  "Dotted": [
+    "Pointillé"
+  ],
+  "Download button settings": [
+    "Réglages du bouton de téléchargement"
+  ],
+  "Download button text": [
+    "Texte du bouton de téléchargement"
+  ],
+  "Draft": [
+    "Brouillon"
+  ],
+  "Drag": [
+    "Glisser"
+  ],
+  "Drag and drop onto this block, upload, or select existing media from your library.": [
+    "Glissez et déposez dans ce bloc, téléversez ou sélectionnez un média existant depuis votre médiathèque."
+  ],
+  "Drag files into the editor to automatically insert media blocks.": [
+    "Déplacez les fichiers dans l’éditeur pour automatiquement insérer des blocs de média."
+  ],
+  "Drag images, upload new ones or select files from your library.": [
+    "Glissez des images, téléversez-en de nouvelles ou sélectionnez des fichiers depuis la médiathèque."
+  ],
+  "Drop cap": [
+    "Lettrine"
+  ],
+  "Duotone": [
+    "Duotone"
+  ],
+  "Duplicate": [
+    "Dupliquer"
+  ],
+  "Duplicate the selected block(s).": [
+    "Dupliquer le (ou les) bloc(s) sélectionné(s)."
+  ],
+  "EXT. XANADU - FAINT DAWN - 1940 (MINIATURE)\nWindow, very small in the distance, illuminated.\nAll around this is an almost totally black screen. Now, as the camera moves slowly towards the window which is almost a postage stamp in the frame, other forms appear;": [
+    "EXT. XANADU - FAIBLES LUEURS DE L’AUBE - 1940 (MINIATURE)\nLa fenêtre, très petite au loin, est illuminée.\nTout autour, l’écran presque totalement noir. À présent, tandis que la caméra se déplace lentement vers la fenêtre qui est presque un timbre-poste dans le cadre, d’autres formes apparaissent ;"
+  ],
+  "Edit": [
+    "Modifier"
+  ],
+  "Edit %s": [
+    "Modifier %s"
+  ],
+  "Edit RSS URL": [
+    "Modifier l’URL du RSS"
+  ],
+  "Edit URL": [
+    "Modifier l’URL"
+  ],
+  "Edit as HTML": [
+    "Modifier en HTML"
+  ],
+  "Edit gallery image": [
+    "Modifier l’image de la galerie"
+  ],
+  "Edit image": [
+    "Modifier l’image"
+  ],
+  "Edit link": [
+    "Modifier le lien"
+  ],
+  "Edit table": [
+    "Modifier le tableau"
+  ],
+  "Edit track": [
+    "Modifier la piste"
+  ],
+  "Edit visually": [
+    "Modifier visuellement"
+  ],
+  "Editor canvas": [
+    "Cadre de l’éditeur"
+  ],
+  "Electric grass": [
+    "Herbe électrique"
+  ],
+  "Embed Amazon Kindle content.": [
+    "Embarquer du contenu Amazon Kindle."
+  ],
+  "Embed Cloudup content.": [
+    "Embarquez un contenu Cloudup."
+  ],
+  "Embed CollegeHumor content.": [
+    "Embarquez un contenu CollegeHumor."
+  ],
+  "Embed Crowdsignal (formerly Polldaddy) content.": [
+    "Contenu Crowdsignal (anciennement Polldaddy) intégré"
+  ],
+  "Embed Flickr content.": [
+    "Embarquez un contenu Flickr."
+  ],
+  "Embed Imgur content.": [
+    "Embarquez un contenu Imgur."
+  ],
+  "Embed Issuu content.": [
+    "Embarquez un contenu Issuu."
+  ],
+  "Embed Kickstarter content.": [
+    "Embarquez un contenu Kickstarter."
+  ],
+  "Embed Mixcloud content.": [
+    "Embarquez un contenu Mixcloud."
+  ],
+  "Embed Pinterest pins, boards, and profiles.": [
+    "Intégrez des épingles, des tableaux et des profils Pinterest."
+  ],
+  "Embed ReverbNation content.": [
+    "Embarquez un contenu ReverbNation."
+  ],
+  "Embed Screencast content.": [
+    "Embarquez un contenu Screencast."
+  ],
+  "Embed Scribd content.": [
+    "Embarquez un contenu Scribd."
+  ],
+  "Embed Slideshare content.": [
+    "Embarquez un contenu Slideshare."
+  ],
+  "Embed SmugMug content.": [
+    "Embarquez un contenu SmugMug."
+  ],
+  "Embed SoundCloud content.": [
+    "Embarquez un contenu Soundcloud."
+  ],
+  "Embed Speaker Deck content.": [
+    "Embarquez un contenu SpeakerDeck."
+  ],
+  "Embed Spotify content.": [
+    "Embarquez un contenu Spotify."
+  ],
+  "Embed Wolfram notebook content.": [
+    "Intégrer le contenu d’un notebook Wolfram."
+  ],
+  "Embed a Dailymotion video.": [
+    "Embarquez une vidéo Dailymotion."
+  ],
+  "Embed a Facebook post.": [
+    "Embarquez une publication Facebook."
+  ],
+  "Embed a Reddit thread.": [
+    "Embarquez un fil de discussion Reddit."
+  ],
+  "Embed a TED video.": [
+    "Embarquez une vidéo TED."
+  ],
+  "Embed a TikTok video.": [
+    "Embarquer une vidéo TikTok."
+  ],
+  "Embed a Tumblr post.": [
+    "Embarquez une publication Tumblr."
+  ],
+  "Embed a VideoPress video.": [
+    "Embarquez une vidéo VideoPress."
+  ],
+  "Embed a Vimeo video.": [
+    "Embarquez une vidéo Vimeo."
+  ],
+  "Embed a WordPress post.": [
+    "Embarquez une publication WordPress."
+  ],
+  "Embed a WordPress.tv video.": [
+    "Embarquez une vidéo WordPress.tv."
+  ],
+  "Embed a YouTube video.": [
+    "Embarquez une vidéo YouTube."
+  ],
+  "Embed a tweet.": [
+    "Embarquez un tweet."
+  ],
+  "Embed an Animoto video.": [
+    "Embarquez une vidéo Animoto."
+  ],
+  "Embed an Instagram post.": [
+    "Embarquez une publication Instagram."
+  ],
+  "Embed of %s.": [
+    "Contenu embarqué %s."
+  ],
+  "Embed of the selected PDF file.": [
+    "Contenu embarqué depuis le fichier PDF sélectionné."
+  ],
+  "Embedded content from %s": [
+    "Contenu embarqué depuis %s"
+  ],
+  "Embedded content from %s can't be previewed in the editor.": [
+    "Le contenu embarqué depuis %s ne peut pas être prévisualisé dans l’éditeur."
+  ],
+  "Empty": [
+    "Vide"
+  ],
+  "Empty block; start writing or type forward slash to choose a block": [
+    "Bloc vide ; écrivez ou saisissez une barre oblique pour choisir un bloc"
+  ],
+  "English": [
+    "Anglais"
+  ],
+  "Enter URL here…": [
+    "Saisissez l’URL ici…"
+  ],
+  "Enter URL to embed here…": [
+    "Saisissez l’URL à embarquer…"
+  ],
+  "Enter a date or time <Link>format string</Link>.": [
+    "Saisissez une date ou une heure <Link>format de la chaîne</Link>."
+  ],
+  "Enter a word or two — without spaces — to make a unique web address just for this block, called an “anchor.” Then, you’ll be able to link directly to this section of your page.": [
+    "Saisir un mot ou deux sans utiliser d’espaces pour créer une adresse web unique – une ancre – pour ce titre. Ensuite, vous pourrez créer des liens directement vers cette section de votre page."
+  ],
+  "Enter address": [
+    "Saisir l’adresse"
+  ],
+  "Enter character(s) used to separate terms.": [
+    "Saisissez le(s) caractère(s) utilisé(s) pour séparer les termes."
+  ],
+  "Enter your own date format": [
+    "Saisissez votre propre format de date"
+  ],
+  "Etiam et egestas lorem. Vivamus sagittis sit amet dolor quis lobortis. Integer sed fermentum arcu, id vulputate lacus. Etiam fermentum sem eu quam hendrerit.": [
+    "Etiam et egestas lorem. Vivamus sagittis sit amet dolor quis lobortis. Integer sed fermentum arcu, id vulputate lacus. Etiam fermentum sem eu quam hendrerit."
+  ],
+  "Excerpt": [
+    "Extrait"
+  ],
+  "Exclude": [
+    "Exclure"
+  ],
+  "Existing template parts": [
+    "Éléments de modèle existants"
+  ],
+  "Explore all patterns": [
+    "Explorez toutes les compositions"
+  ],
+  "Failed to create Navigation Menu.": [
+    "Échec de la création du menu de navigation."
+  ],
+  "Featured image": [
+    "Image mise en avant"
+  ],
+  "Featured image settings": [
+    "Réglages de l’image mise en avant"
+  ],
+  "Featured image: %s": [
+    "Image à la une : %s"
+  ],
+  "February 21, 2019": [
+    "21 février 2019"
+  ],
+  "File": [
+    "Fichier"
+  ],
+  "Filter patterns": [
+    "Filtrer les compositions"
+  ],
+  "Filters": [
+    "Filtres"
+  ],
+  "Find out more": [
+    "En savoir plus"
+  ],
+  "Five.": [
+    "Cinq."
+  ],
+  "Fixed background": [
+    "Arrière-plan fixe"
+  ],
+  "Fixed width table cells": [
+    "Cellules de tableau à largeur fixe"
+  ],
+  "Flex": [
+    "Flex"
+  ],
+  "Flow": [
+    "Flux"
+  ],
+  "Focal point picker": [
+    "Sélecteur de point de focalisation"
+  ],
+  "Font family": [
+    "Famille des polices"
+  ],
+  "Font size": [
+    "Taille de police"
+  ],
+  "Font style": [
+    "Style de police"
+  ],
+  "Font weight": [
+    "Graisse de la police"
+  ],
+  "Footer": [
+    "Pied de page"
+  ],
+  "Footer cell text": [
+    "Texte de la cellule de pied de page"
+  ],
+  "Footer label": [
+    "Libellé du pied de page"
+  ],
+  "Footer section": [
+    "Section de pied de page"
+  ],
+  "Four.": [
+    "Quatre."
+  ],
+  "Full Size": [
+    "Taille originale"
+  ],
+  "Full post": [
+    "Article complet"
+  ],
+  "Full width": [
+    "Pleine largeur"
+  ],
+  "Gallery": [
+    "Galerie"
+  ],
+  "Gallery caption text": [
+    "Texte de légende de la galerie"
+  ],
+  "Gallery settings": [
+    "Réglages de la galerie"
+  ],
+  "Gather blocks in a layout container.": [
+    "Rassembler les blocs dans un conteneur de mise en page."
+  ],
+  "Generic label for block inserter button\u0004Add block": [
+    "Ajouter un bloc"
+  ],
+  "Gradient": [
+    "Dégradé"
+  ],
+  "Grid view": [
+    "Vue grille"
+  ],
+  "Group": [
+    "Groupe"
+  ],
+  "Group by:": [
+    "Regrouper par :"
+  ],
+  "HTML": [
+    "HTML"
+  ],
+  "HTML anchor": [
+    "Ancre HTML"
+  ],
+  "HTML element": [
+    "Élément HTML"
+  ],
+  "Header": [
+    "En-tête"
+  ],
+  "Header cell text": [
+    "Texte de la cellule de titre"
+  ],
+  "Header label": [
+    "Libellé de l’en-tête"
+  ],
+  "Header section": [
+    "Section d’en-tête"
+  ],
+  "Heading": [
+    "Titre"
+  ],
+  "Heading %d": [
+    "Titre %d"
+  ],
+  "Heading settings": [
+    "Réglages du titre"
+  ],
+  "Heading text": [
+    "Texte du titre"
+  ],
+  "Height": [
+    "Hauteur"
+  ],
+  "Height in pixels": [
+    "Hauteur en pixels"
+  ],
+  "Hi, this is a comment.": [
+    "Bonjour, ceci est un commentaire."
+  ],
+  "Hide the excerpt on the full content page": [
+    "Masquer l’extrait sur la page de contenu entier"
+  ],
+  "Home": [
+    "Accueil"
+  ],
+  "Home link text": [
+    "Texte du lien vers l‘accueil"
+  ],
+  "Huge": [
+    "Énorme"
+  ],
+  "Icon background": [
+    "Arrière-plan de l’icône"
+  ],
+  "Icon color": [
+    "Couleur de l’icône"
+  ],
+  "If there are any Custom Post Types registered at your site, the Post Content block can display the contents of those entries as well.": [
+    "S’il existe des types de publications personnalisés enregistrés sur votre site, le bloc de contenu de publication peut également afficher le contenu de ces entrées."
+  ],
+  "If there are any Custom Post Types with support for excerpts, the Post Excerpt block can display the excerpts of those entries as well.": [
+    "S’il existe des types de publication personnalisés prenant en charge les extraits, le bloc extrait de la publication peut également afficher les extraits de ces éléments."
+  ],
+  "If uploading to a gallery all files need to be image formats": [
+    "Si vous téléversez vers une galerie, tous les fichiers doivent être dans un format d‘image."
+  ],
+  "If you have entered a custom label, it will be prepended before the title.": [
+    "Si vous avez saisi un libellé personnalisé, il sera ajouté avant le titre."
+  ],
+  "Image": [
+    "Image"
+  ],
+  "Image alignment": [
+    "Alignement de l’image"
+  ],
+  "Image caption text": [
+    "Texte de légende de l’image"
+  ],
+  "Image dimensions": [
+    "Dimensions de l’image"
+  ],
+  "Image is scaled and cropped to fill the entire space without being distorted.": [
+    "L’image est mise à l’échelle et recadrée pour remplir tout l’espace sans être déformée."
+  ],
+  "Image is scaled to fill the space without clipping nor distorting.": [
+    "L’image est mise à l’échelle pour remplir l’espace sans être rognée ni déformée."
+  ],
+  "Image scaling options\u0004Scale": [
+    "Redimensionner"
+  ],
+  "Image settings": [
+    "Réglages de l’image"
+  ],
+  "Image size": [
+    "Taille de l’image"
+  ],
+  "Image size presets": [
+    "Préréglages de la taille de l’image"
+  ],
+  "Image uploaded.": [
+    "Image téléversée."
+  ],
+  "Image width": [
+    "Largeur de l’image"
+  ],
+  "Image will be stretched and distorted to completely fill the space.": [
+    "L’image sera étirée et déformée pour remplir complètement l’espace."
+  ],
+  "Image, Date, & Title": [
+    "Image, date et titre"
+  ],
+  "In a village of La Mancha, the name of which I have no desire to call to mind, there lived not long since one of those gentlemen that keep a lance in the lance-rack, an old buckler, a lean hack, and a greyhound for coursing.": [
+    "Dans un village de la Manche dont je ne veux pas me rappeler le nom, il n’y a pas longtemps que vivait un de ces hidalgos qui ont lance au râtelier, vieille rondache, maigre haridelle et limier de chasse."
+  ],
+  "In quoting others, we cite ourselves.": [
+    "En citant les autres, nous nous citons nous mêmes."
+  ],
+  "Include": [
+    "Inclure"
+  ],
+  "Include the label as part of the link": [
+    "Inclure le libellé comme partie du lien."
+  ],
+  "Indent": [
+    "Indenter"
+  ],
+  "Indent a list by pressing <kbd>space</kbd> at the beginning of a line.": [
+    "Indenter une liste en appuyant sur la touche <kbd>espace</kbd> en début de ligne."
+  ],
+  "Indent list item": [
+    "Indenter l’élément de la liste"
+  ],
+  "Indicates this palette comes from WordPress.\u0004Default": [
+    "Par défaut"
+  ],
+  "Indicates this palette comes from the theme.\u0004Custom": [
+    "Personnalisée"
+  ],
+  "Indicates this palette comes from the theme.\u0004Theme": [
+    "Thème"
+  ],
+  "Indicates this palette is created by the user.\u0004Custom": [
+    "Personnalisée"
+  ],
+  "Inherit default layout": [
+    "Hériter de la mise en page par défaut"
+  ],
+  "Inherit query from template": [
+    "Hériter la requête à partir du modèle"
+  ],
+  "Insert a new block after the selected block(s).": [
+    "Insérer un nouveau bloc après le (ou les) bloc(s) sélectionné(s)."
+  ],
+  "Insert a new block before the selected block(s).": [
+    "Insérer un nouveau bloc avant le (ou les) bloc(s) sélectionné(s)."
+  ],
+  "Insert a table for sharing data.": [
+    "Insérer un tableau pour partager des données."
+  ],
+  "Insert after": [
+    "Insérer après"
+  ],
+  "Insert before": [
+    "Insérer avant"
+  ],
+  "Insert column after": [
+    "Insérer une colonne après"
+  ],
+  "Insert column before": [
+    "Insérer une colonne avant"
+  ],
+  "Insert from URL": [
+    "Insérer à partir d’une URL"
+  ],
+  "Insert link": [
+    "Insérer un lien"
+  ],
+  "Insert row after": [
+    "Insérer une ligne après"
+  ],
+  "Insert row before": [
+    "Insérer une ligne avant"
+  ],
+  "Invalid": [
+    "Non valide"
+  ],
+  "Items per Page": [
+    "Éléments par page"
+  ],
+  "January 1, 2000 at 12:00 am": [
+    "1er janvier 2000 à 00h00"
+  ],
+  "Jazz Musician": [
+    "Musicien de jazz"
+  ],
+  "Justification": [
+    "Justification"
+  ],
+  "Justify items center": [
+    "Justifier les blocs au centre"
+  ],
+  "Justify items left": [
+    "Justifier les blocs à gauche"
+  ],
+  "Justify items right": [
+    "Justifier les blocs à droite"
+  ],
+  "Keep as HTML": [
+    "Conserver en HTML"
+  ],
+  "Keyword": [
+    "Mot-clé"
+  ],
+  "Kind": [
+    "Sorte"
+  ],
+  "Label": [
+    "Libellé"
+  ],
+  "Label for showing all block patterns\u0004Explore": [
+    "Explorer"
+  ],
+  "Label text": [
+    "Texte du libellé"
+  ],
+  "Landscape": [
+    "Paysage"
+  ],
+  "Language tag (en, fr, etc.)": [
+    "Étiquette de langue (en, fr, etc.)"
+  ],
+  "Large": [
+    "Grande"
+  ],
+  "Large screens": [
+    "Écrans larges"
+  ],
+  "Largest size": [
+    "La plus grande taille"
+  ],
+  "Latest Posts": [
+    "Articles récents"
+  ],
+  "Latest comments settings": [
+    "Réglages des derniers commentaires"
+  ],
+  "Layout": [
+    "Mise en page"
+  ],
+  "Learn more about anchors": [
+    "En savoir plus sur les ancres"
+  ],
+  "Learn more about embeds": [
+    "En apprendre plus à propos des contenus embarqués"
+  ],
+  "Leave a Reply": [
+    "Laisser un commentaire"
+  ],
+  "Leave empty if the image is purely decorative.": [
+    "Laisser vide si l’image est purement décorative."
+  ],
+  "Letter case": [
+    "Casse"
+  ],
+  "Letter spacing": [
+    "Espacement des lettres"
+  ],
+  "Level %1$s. %2$s": [
+    "Niveau %1$s. %2$s"
+  ],
+  "Level %s. Empty.": [
+    "Niveau %s. Vide."
+  ],
+  "Light green cyan": [
+    "Vert clair cyan"
+  ],
+  "Light green cyan to vivid green cyan": [
+    "Vert-cyan clair vers vert-cyan vif"
+  ],
+  "Limit the pages you want to show, even if the query has more results. To show all pages use 0 (zero).": [
+    "Limiter les pages à afficher même si la requête dispose de davantage de résultats. Pour afficher toutes les pages, saisir 0 (zéro)."
+  ],
+  "Line height": [
+    "Hauteur de ligne"
+  ],
+  "Link": [
+    "Lien"
+  ],
+  "Link CSS Class": [
+    "Classe CSS du lien"
+  ],
+  "Link Radii": [
+    "Placer le rayon dans le lien"
+  ],
+  "Link Rel": [
+    "Attribut « Rel » du lien"
+  ],
+  "Link image to home": [
+    "Faire un lien vers l’accueil sur l’image"
+  ],
+  "Link is empty": [
+    "Le lien est vide"
+  ],
+  "Link label": [
+    "Libellé du lien"
+  ],
+  "Link rel": [
+    "Attribut rel"
+  ],
+  "Link removed.": [
+    "Lien retiré."
+  ],
+  "Link selected.": [
+    "Lien sélectionné."
+  ],
+  "Link settings": [
+    "Réglages de lien"
+  ],
+  "Link title": [
+    "Titre du lien"
+  ],
+  "Link to": [
+    "Lien vers"
+  ],
+  "Link to %s": [
+    "Lien vers %s"
+  ],
+  "Link to authors URL": [
+    "Lier à l‘URL des auteurs/autrices"
+  ],
+  "Link to comment": [
+    "Lien pour commenter"
+  ],
+  "Link to post": [
+    "Lien vers la publication"
+  ],
+  "Link to user profile": [
+    "Lien vers le profil du compte"
+  ],
+  "List": [
+    "Liste"
+  ],
+  "List text": [
+    "Texte de la liste"
+  ],
+  "List view": [
+    "Vue liste"
+  ],
+  "Loading Navigation block setup options.": [
+    "Chargement des options de configuration du bloc de navigation."
+  ],
+  "Loading options…": [
+    "Options de chargement…"
+  ],
+  "Lock": [
+    "Verrouiller"
+  ],
+  "Lock %s": [
+    "Verrouiller « %s »"
+  ],
+  "Lock all": [
+    "Tout verrouiller"
+  ],
+  "Log out": [
+    "Déconnexion"
+  ],
+  "Login/out settings": [
+    "Réglages de connexion/déconnexion"
+  ],
+  "Loop": [
+    "Répéter"
+  ],
+  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et eros eu felis.": [
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et eros eu felis."
+  ],
+  "Lowercase": [
+    "Minuscules"
+  ],
+  "Luminous dusk": [
+    "Crépuscule lumineux"
+  ],
+  "Luminous vivid amber": [
+    "Ambre lumineux et vif"
+  ],
+  "Luminous vivid amber to luminous vivid orange": [
+    "Ambre vif lumineux vers orange vif"
+  ],
+  "Luminous vivid orange": [
+    "Orange vif lumineux"
+  ],
+  "Luminous vivid orange to vivid red": [
+    "Orange vif lumineux vers rouge lumineux"
+  ],
+  "Make title a link": [
+    "Créer un lien sur le titre"
+  ],
+  "Make title link to home": [
+    "Lier le titre à l’accueil"
+  ],
+  "Manage Reusable blocks": [
+    "Gérer les blocs réutilisables"
+  ],
+  "Manage menus": [
+    "Gérer les menus"
+  ],
+  "Margin": [
+    "Marges externes"
+  ],
+  "Matt Mullenweg": [
+    "Matt Mullenweg"
+  ],
+  "Max %s wide": [
+    "Largeur maximum : %s"
+  ],
+  "Max number of words in excerpt": [
+    "Nombre maximum de mots dans l’extrait"
+  ],
+  "Max page to show": [
+    "Nombre maximal de pages"
+  ],
+  "May 7, 2019": [
+    "7 mai 2019"
+  ],
+  "Media": [
+    "Médias"
+  ],
+  "Media & Text settings": [
+    "Réglages média & texte"
+  ],
+  "Media File": [
+    "Fichier média"
+  ],
+  "Media Library": [
+    "Médiathèque"
+  ],
+  "Media area": [
+    "Zone de média"
+  ],
+  "Media file": [
+    "Fichier média"
+  ],
+  "Media item link option\u0004None": [
+    "Aucun"
+  ],
+  "Media settings": [
+    "Réglages des médias"
+  ],
+  "Media width": [
+    "Largeur de média"
+  ],
+  "Medium": [
+    "Moyenne"
+  ],
+  "Medium screens": [
+    "Écrans moyens"
+  ],
+  "Menu": [
+    "Menu"
+  ],
+  "Menu name": [
+    "Nom du menu"
+  ],
+  "Menus": [
+    "Menus"
+  ],
+  "Metadata": [
+    "Métadonnées"
+  ],
+  "Midnight": [
+    "Minuit"
+  ],
+  "Minimum height": [
+    "Hauteur minimale"
+  ],
+  "Minimum height of cover": [
+    "Hauteur minimale de la bannière"
+  ],
+  "Mixed": [
+    "Mixte"
+  ],
+  "Mobile": [
+    "Mobile"
+  ],
+  "Mont Blanc appears—still, snowy, and serene.": [
+    "Luire, ô lac, dans ton beau miroir !"
+  ],
+  "Month": [
+    "Mois"
+  ],
+  "More": [
+    "En savoir plus"
+  ],
+  "More options": [
+    "Plus d’options"
+  ],
+  "Move %1$d block from position %2$d down by one place": [
+    "Déplacer %1$d bloc d’une place en dessous de %2$d",
+    "Déplacer %1$d blocs d’une place en dessous de %2$d"
+  ],
+  "Move %1$d block from position %2$d up by one place": [
+    "Déplacer %1$d bloc d’une place en dessus de %2$d",
+    "Déplacer %1$d blocs d’une place en dessus de %2$d"
+  ],
+  "Move %1$s block from position %2$d down to position %3$d": [
+    "Déplacer le bloc %1$s de la position %2$d vers la position %3$d"
+  ],
+  "Move %1$s block from position %2$d left to position %3$d": [
+    "Déplacer le bloc %1$s de la position %2$d à gauche à la position %3$d"
+  ],
+  "Move %1$s block from position %2$d right to position %3$d": [
+    "Déplacer le bloc %1$s de la position %2$d à droite à la position %3$d"
+  ],
+  "Move %1$s block from position %2$d up to position %3$d": [
+    "Déplacer le bloc %1$s de la position %2$d vers la position %3$d"
+  ],
+  "Move down": [
+    "Descendre"
+  ],
+  "Move image backward": [
+    "Déplacer l’image vers l’arrière"
+  ],
+  "Move image forward": [
+    "Déplacer l’image vers l’avant"
+  ],
+  "Move left": [
+    "Déplacer à gauche"
+  ],
+  "Move right": [
+    "Déplacer à droite"
+  ],
+  "Move the selected block(s) down.": [
+    "Déplacer le ou les blocs sélectionnés vers le bas."
+  ],
+  "Move the selected block(s) up.": [
+    "Déplacer le ou les blocs sélectionnés vers le haut."
+  ],
+  "Move to": [
+    "Déplacer vers"
+  ],
+  "Move up": [
+    "Monter"
+  ],
+  "Moved \"%s\" to clipboard.": [
+    "« %s » déplacé dans le presse-papier."
+  ],
+  "Moved %d block to clipboard.": [
+    "%d bloc déplacé dans le presse-papier.",
+    "%d blocs déplacés dans le presse-papier."
+  ],
+  "Multiple selected blocks": [
+    "Multiples blocs sélectionnés"
+  ],
+  "Muted": [
+    "En sourdine"
+  ],
+  "Nam risus massa, ullamcorper consectetur eros fermentum, porta aliquet ligula. Sed vel mauris nec enim.": [
+    "Nam risus massa, ullamcorper consectetur eros fermentum, porta aliquet ligula. Sed vel mauris nec enim."
+  ],
+  "Name": [
+    "Nom"
+  ],
+  "Name and create your new %s": [
+    "Nommer et créer votre %s"
+  ],
+  "Name of the file\u0004Armstrong_Small_Step": [
+    "Armstrong_Small_Step"
+  ],
+  "Navigate to the nearest toolbar.": [
+    "Naviguer vers la barre d’outils la plus proche."
+  ],
+  "Navigation": [
+    "Navigation"
+  ],
+  "Navigation Menu successfully created.": [
+    "Le menu de navigation a bien été créé."
+  ],
+  "Navigation block setup options ready.": [
+    "Les options de configuration du bloc de navigation sont prêtes."
+  ],
+  "Navigation link text": [
+    "Texte du lien de navigation"
+  ],
+  "Navigation menu %s successfully deleted.": [
+    "Le menu de navigation %s a été supprimé avec succès."
+  ],
+  "Navigation menu has been deleted or is unavailable. ": [
+    "Le menu de navigation a été supprimé ou n’est pas disponible."
+  ],
+  "New Column": [
+    "Ajouter une colonne"
+  ],
+  "New Navigation Menu created.": [
+    "Nouveau menu de navigation créé."
+  ],
+  "Newer Comments": [
+    "Commentaires plus récents"
+  ],
+  "Newer comments page link": [
+    "Lien vers la page de commentaires suivante"
+  ],
+  "Newest to oldest": [
+    "Des plus récents aux plus anciens"
+  ],
+  "Next": [
+    "Suivant"
+  ],
+  "Next Page": [
+    "Page suivante"
+  ],
+  "Next page link": [
+    "Lien vers la page suivante"
+  ],
+  "Next pattern": [
+    "Composition suivante"
+  ],
+  "Next post": [
+    "Article suivant"
+  ],
+  "Next: ": [
+    "Suivant : "
+  ],
+  "No Preview Available.": [
+    "Aucun aperçu disponible."
+  ],
+  "No Title": [
+    "Aucun titre"
+  ],
+  "No block selected.": [
+    "Aucun bloc sélectionné."
+  ],
+  "No button": [
+    "Aucun bouton"
+  ],
+  "No post excerpt found": [
+    "Aucun extrait de publication trouvé"
+  ],
+  "No posts found.": [
+    "Aucune publication trouvée."
+  ],
+  "No published posts found.": [
+    "Aucune publication trouvée."
+  ],
+  "No results found.": [
+    "Aucun résultat."
+  ],
+  "No results.": [
+    "Aucun résultat."
+  ],
+  "No selected font appearance": [
+    "Aucune apparence de police sélectionnée."
+  ],
+  "None": [
+    "Aucun"
+  ],
+  "Normal": [
+    "Normale"
+  ],
+  "Not set": [
+    "Non défini"
+  ],
+  "Note: Most phone and tablet browsers won't display embedded PDFs.": [
+    "Remarque : la plupart des navigateurs pour téléphone et tablette n’affichent pas les PDF embarqués."
+  ],
+  "Note: if you add new pages to your site, you'll need to add them to your navigation menu.": [
+    "Note : si vous ajoutez de nouvelles pages, vous devrez les ajouter à votre menu de navigation."
+  ],
+  "Number of comments": [
+    "Nombre de commentaires"
+  ],
+  "Number of items": [
+    "Nombre d’éléments"
+  ],
+  "Number of tags": [
+    "Nombre d’étiquettes"
+  ],
+  "Off": [
+    "Désactivé"
+  ],
+  "Offset": [
+    "Décalage"
+  ],
+  "Older Comments": [
+    "Commentaires plus anciens"
+  ],
+  "Older comments page link": [
+    "Lien vers la page de commentaires plus ancienne"
+  ],
+  "Oldest to newest": [
+    "Des plus anciens aux plus récents"
+  ],
+  "One column": [
+    "Une colonne"
+  ],
+  "One of the hardest things to do in technology is disrupt yourself.": [
+    "L’une des choses les plus difficiles à faire dans le monde des technologies est de se réinventer soi-même."
+  ],
+  "One response": [
+    "Une réponse"
+  ],
+  "One response to %s": [
+    "Une réponse à %s"
+  ],
+  "One.": [
+    "Un."
+  ],
+  "Only": [
+    "Uniquement"
+  ],
+  "Opacity": [
+    "Opacité"
+  ],
+  "Open Colors Selector": [
+    "Ouvrir le sélecteur de couleurs"
+  ],
+  "Open Media Library": [
+    "Ouvrir la médiathèque"
+  ],
+  "Open in new tab": [
+    "Ouvrir dans un nouvel onglet"
+  ],
+  "Open links in new tab": [
+    "Ouvrir les liens dans un nouvel onglet"
+  ],
+  "Open menu": [
+    "Ouvrir le menu"
+  ],
+  "Open on click": [
+    "Ouvrir en cliquant"
+  ],
+  "Optional placeholder text": [
+    "Texte indicatif facultatif"
+  ],
+  "Optional placeholder…": [
+    "Texte indicatif facultatif…"
+  ],
+  "Options": [
+    "Options"
+  ],
+  "Options for %s block": [
+    "Options pour le bloc %s"
+  ],
+  "Order by": [
+    "Ordonner par"
+  ],
+  "Ordered": [
+    "Numérotée"
+  ],
+  "Ordered list settings": [
+    "Réglages de liste ordonnée"
+  ],
+  "Orientation": [
+    "Orientation"
+  ],
+  "Original": [
+    "Originale"
+  ],
+  "Outdent": [
+    "Désindenter"
+  ],
+  "Outdent a list by pressing <kbd>backspace</kbd> at the beginning of a line.": [
+    "Désindenter une liste en appuyant sur la touche <kbd>retour arrière</kbd> en début de ligne."
+  ],
+  "Outdent list item": [
+    "Désindenter l’élément de la liste"
+  ],
+  "Overlay": [
+    "Calque de superposition"
+  ],
+  "Overlay Menu": [
+    "Menu superposé"
+  ],
+  "PDF embed": [
+    "PDF embarqué"
+  ],
+  "PDF settings": [
+    "Réglages PDF"
+  ],
+  "Padding": [
+    "Marges internes"
+  ],
+  "Page Link": [
+    "Lien de page"
+  ],
+  "Page List: Cannot retrieve Pages.": [
+    "Liste des pages : impossible de retrouver les pages."
+  ],
+  "Page break": [
+    "Saut de page"
+  ],
+  "Pale cyan blue": [
+    "Bleu cyan pâle"
+  ],
+  "Pale ocean": [
+    "Océan pâle"
+  ],
+  "Pale pink": [
+    "Rose pâle"
+  ],
+  "Paragraph": [
+    "Paragraphe"
+  ],
+  "Paragraph block": [
+    "Bloc paragraphe"
+  ],
+  "Paste URL or type to search": [
+    "Collez l’URL ou saisissez une recherche"
+  ],
+  "Paste a link to the content you want to display on your site.": [
+    "Collez un lien vers le contenu que vous souhaitez afficher sur votre site."
+  ],
+  "Paste or type URL": [
+    "Collez ou saisissez une URL"
+  ],
+  "Patterns": [
+    "Compositions"
+  ],
+  "Patterns list": [
+    "Liste des compositions"
+  ],
+  "Percentage Width": [
+    "Largeur en pourcentage"
+  ],
+  "Play inline": [
+    "Lancer directement"
+  ],
+  "Playback controls": [
+    "Commandes de lecture"
+  ],
+  "Portrait": [
+    "Portrait"
+  ],
+  "Post Author": [
+    "Auteur ou autrice de la publication"
+  ],
+  "Post Categories": [
+    "Catégories d’articles"
+  ],
+  "Post Comment": [
+    "Laisser un commentaire"
+  ],
+  "Post Comments Form block: comments are not enabled for this post type.": [
+    "Bloc de formulaire de commentaire : les commentaires ne sont pas activés sur ce type de publication."
+  ],
+  "Post Comments Form block: comments to this %s are not allowed.": [
+    "Bloc Formulaire de commentaire : les commentaires ne sont pas autorisés sur ce type de publications (%s)."
+  ],
+  "Post Comments block: Comments are not enabled.": [
+    "Bloc de publication de commentaires : les commentaires ne sont pas autorisés."
+  ],
+  "Post Comments block: Comments for this post type (%s) are not enabled.": [
+    "Bloc de commentaires de publication : les commentaires pour ce type de publication (%s) ne sont pas activés."
+  ],
+  "Post Comments block: Comments to this %s are not allowed.": [
+    "Bloc de commentaires : les commentaires sur la publication %s ne sont pas autorisés."
+  ],
+  "Post Comments block: This is just a placeholder, not a real comment. The final styling may differ because it also depends on the current theme. For better compatibility with the Block Editor, please consider replacing this block with the \"Comments Query Loop\" block.": [
+    "Bloc de commentaires : il s‘agit simplement d‘un espace réservé, pas d‘un véritable commentaire. Le style final peut différer car il dépend également du thème actuel. Pour une meilleure compatibilité avec l‘éditeur de blocs, veuillez envisager de remplacer ce bloc par le bloc « Comments Query Loop »."
+  ],
+  "Post Date": [
+    "Date de la publication"
+  ],
+  "Post Excerpt Settings": [
+    "Réglages de l’extrait de la publication"
+  ],
+  "Post Link": [
+    "Lien d’article"
+  ],
+  "Post Tags": [
+    "Étiquettes d’articles"
+  ],
+  "Post Title": [
+    "Titre de la publication"
+  ],
+  "Post author byline text": [
+    "Texte de mention de l’auteur/autrice"
+  ],
+  "Post content": [
+    "Contenu de la publication"
+  ],
+  "Post content settings": [
+    "Réglages de contenu de publication"
+  ],
+  "Post excerpt text": [
+    "Texte de l’extrait de la publication"
+  ],
+  "Post meta settings": [
+    "Réglages des métas de la publication"
+  ],
+  "Post type": [
+    "Type de publication"
+  ],
+  "Poster image": [
+    "Image de couverture"
+  ],
+  "Posts List": [
+    "Liste des publications"
+  ],
+  "Preformatted text": [
+    "Texte préformaté"
+  ],
+  "Preload": [
+    "Précharger"
+  ],
+  "Preload value\u0004None": [
+    "Aucun"
+  ],
+  "Press ENTER to add this link": [
+    "Appuyer sur ENTRÉE pour ajouter ce lien"
+  ],
+  "Prevent removal": [
+    "Empêcher la suppression"
+  ],
+  "Preview": [
+    "Prévisualiser"
+  ],
+  "Previous": [
+    "Précédent"
+  ],
+  "Previous Page": [
+    "Page précédente"
+  ],
+  "Previous page link": [
+    "Lien vers la page précédente"
+  ],
+  "Previous pattern": [
+    "Composition précédente"
+  ],
+  "Previous post": [
+    "Article précédent"
+  ],
+  "Previous: ": [
+    "Précédent : "
+  ],
+  "Provided type is not supported.": [
+    "Le type fourni n’est pas pris en charge."
+  ],
+  "Pullquote citation text": [
+    "Texte de la citation en exergue"
+  ],
+  "Pullquote text": [
+    "Texte de la citation en exergue"
+  ],
+  "Quote citation text": [
+    "Texte de la citation"
+  ],
+  "Quote text": [
+    "Texte de la citation"
+  ],
+  "RSS settings": [
+    "Réglages RSS"
+  ],
+  "Radius": [
+    "Rayon"
+  ],
+  "Read more": [
+    "Lire la suite"
+  ],
+  "Read more link text": [
+    "Texte du lien lire la suite"
+  ],
+  "Recently updated": [
+    "Récemment mis à jour"
+  ],
+  "Redirect to current URL": [
+    "Rediriger vers l’URL actuelle"
+  ],
+  "Release Date": [
+    "Date de sortie"
+  ],
+  "Remove": [
+    "Retirer"
+  ],
+  "Remove %s": [
+    "Retirer %s"
+  ],
+  "Remove blocks": [
+    "Retirer les blocs"
+  ],
+  "Remove image": [
+    "Retirer l’image"
+  ],
+  "Remove link": [
+    "Retirer le lien"
+  ],
+  "Remove the selected block(s).": [
+    "Retirer le (ou les) bloc(s) sélectionné(s)."
+  ],
+  "Remove track": [
+    "Retirer la piste"
+  ],
+  "Repeated background": [
+    "Arrière-plan répété"
+  ],
+  "Replace": [
+    "Remplacer"
+  ],
+  "Replace image": [
+    "Remplacer l’image"
+  ],
+  "Reply": [
+    "Répondre"
+  ],
+  "Reply to %s": [
+    "Répondre à %s"
+  ],
+  "Reset": [
+    "Réinitialiser "
+  ],
+  "Resize for smaller devices": [
+    "Redimensionner pour les petits appareils"
+  ],
+  "Resolve Block": [
+    "Résoudre les problèmes de ce bloc"
+  ],
+  "Response": [
+    "Réponse"
+  ],
+  "Response to %s": [
+    "Commentaire sur « %s »"
+  ],
+  "Responses": [
+    "Réponses"
+  ],
+  "Responses to %s": [
+    "Commentaires sur « %s »"
+  ],
+  "Reusable": [
+    "Réutilisables"
+  ],
+  "Reusable blocks": [
+    "Blocs réutilisables"
+  ],
+  "Reverse list numbering": [
+    "Inverser le numérotage de la liste"
+  ],
+  "Rotate": [
+    "Pivoter"
+  ],
+  "Row": [
+    "Ligne"
+  ],
+  "Row count": [
+    "Nombre de lignes"
+  ],
+  "Scale option for Image dimension control\u0004Contain": [
+    "Contenir"
+  ],
+  "Scale option for Image dimension control\u0004Cover": [
+    "Recouvrir"
+  ],
+  "Scale option for Image dimension control\u0004Fill": [
+    "Remplir"
+  ],
+  "Search": [
+    "Rechercher"
+  ],
+  "Search for blocks and patterns": [
+    "Recherchez des blocs et des compositions"
+  ],
+  "Search for patterns": [
+    "Rechercher des compositions"
+  ],
+  "Search or type url": [
+    "Rechercher ou saisir une URL"
+  ],
+  "Search results for \"%s\"": [
+    "Résultats de recherche pour « %s »"
+  ],
+  "Select": [
+    "Sélectionner"
+  ],
+  "Select %s": [
+    "Sélectionner %s"
+  ],
+  "Select Menu": [
+    "Sélectionner un menu"
+  ],
+  "Select a variation to start with.": [
+    "Sélectionner une variante avec laquelle commencer."
+  ],
+  "Select all text when typing. Press again to select all blocks.": [
+    "Sélectionner tout le texte lors de la saisie. Réappuyez pour sélectionner tous les blocs."
+  ],
+  "Select category": [
+    "Sélectionner une catégorie"
+  ],
+  "Select color type": [
+    "Sélectionnez le type de couleur"
+  ],
+  "Select page": [
+    "Sélectionner une page"
+  ],
+  "Select parent block (%s)": [
+    "Sélectionner le bloc parent (%s)"
+  ],
+  "Select post": [
+    "Sélectionner un article"
+  ],
+  "Select poster image": [
+    "Sélectionner une image de couverture"
+  ],
+  "Select tag": [
+    "Sélectionner une étiquette"
+  ],
+  "Select the avatar user to display, if it is blank it will use the post/page author.": [
+    "Sélectionnez l’avatar du compte à afficher, s’il est vide, ce sera celui de l’auteur/autrice de la page/l’article."
+  ],
+  "Select the size of the source image.": [
+    "Sélectionnez la taille de l’image source."
+  ],
+  "Separate multiple classes with spaces.": [
+    "Dans le cas de plusieurs classes, séparez-les avec des espaces."
+  ],
+  "Separator": [
+    "Séparateur"
+  ],
+  "Settings": [
+    "Réglages"
+  ],
+  "Shortcode": [
+    "Code court"
+  ],
+  "Shortcode text": [
+    "Texte du code court"
+  ],
+  "Show arrow": [
+    "Afficher la flèche"
+  ],
+  "Show avatar": [
+    "Afficher l’avatar"
+  ],
+  "Show bio": [
+    "Afficher la bio"
+  ],
+  "Show comments count": [
+    "Afficher le nombre de commentaires"
+  ],
+  "Show download button": [
+    "Afficher le bouton de téléchargement"
+  ],
+  "Show hierarchy": [
+    "Afficher la hiérarchie"
+  ],
+  "Show icon button": [
+    "Afficher l’icône du bouton"
+  ],
+  "Show inline embed": [
+    "Afficher le contenu embarqué en ligne"
+  ],
+  "Show labels": [
+    "Afficher les libellés"
+  ],
+  "Show link on new line": [
+    "Afficher le lien sur une nouvelle ligne"
+  ],
+  "Show media on left": [
+    "Afficher le média sur la gauche"
+  ],
+  "Show media on right": [
+    "Afficher le média sur la droite"
+  ],
+  "Show only top level categories": [
+    "Afficher uniquement les catégories de niveau supérieur"
+  ],
+  "Show post counts": [
+    "Afficher le nombre d’articles"
+  ],
+  "Show post title": [
+    "Afficher le titre de l‘article"
+  ],
+  "Show:": [
+    "Afficher :"
+  ],
+  "Showing large initial letter.": [
+    "Affichage de la lettrine."
+  ],
+  "Site Icons are what you see in browser tabs, bookmark bars, and within the WordPress mobile apps. To use a custom icon that is different from your site logo, use the <a>Site Icon settings</a>.": [
+    "Les icônes de site (souvent nommées « favicon ») sont souvent utilisées dans les onglets du navigateur, dans les barres de signets et dans les applications mobiles. Pour utiliser une icône personnalisée différente de votre logo de site, utilisez les <a>réglages d’icône</a>."
+  ],
+  "Site Tagline placeholder": [
+    "Texte indicatif du slogan du site"
+  ],
+  "Site Title placeholder": [
+    "Texte indicatif du titre du site"
+  ],
+  "Site tagline text": [
+    "Texte du slogan du site"
+  ],
+  "Site title text": [
+    "Texte du titre du site"
+  ],
+  "Six.": [
+    "Six."
+  ],
+  "Size": [
+    "Taille"
+  ],
+  "Skip": [
+    "Passer"
+  ],
+  "Skip to the selected block": [
+    "Aller au bloc sélectionné."
+  ],
+  "Small": [
+    "Petite"
+  ],
+  "Small screens": [
+    "Petits écrans"
+  ],
+  "Smallest size": [
+    "La plus petite taille"
+  ],
+  "Social Icon": [
+    "Icône de réseaux sociaux"
+  ],
+  "Solid": [
+    "Unie"
+  ],
+  "Sorry, this content could not be embedded.": [
+    "Désolé, ce contenu ne peut pas être embarqué."
+  ],
+  "Sorting and filtering": [
+    "Tri et filtrage"
+  ],
+  "Source language": [
+    "Langue originelle"
+  ],
+  "Space between items": [
+    "Répartir les blocs"
+  ],
+  "Spacer settings": [
+    "Réglages de l’espacement"
+  ],
+  "Square": [
+    "Carré"
+  ],
+  "Stack": [
+    "Empiler"
+  ],
+  "Stack on mobile": [
+    "Empiler sur mobile"
+  ],
+  "Start blank": [
+    "Partir de zéro"
+  ],
+
+  "Start empty": [
+    "Commencer vide"
+  ],
+  "Start value": [
+    "Valeur de départ"
+  ],
+  "Sticky posts": [
+    "Publications épinglées"
+  ],
+  "Strikethrough": [
+    "Barrer"
+  ],
+  "Style": [
+    "Style"
+  ],
+  "Styles": [
+    "Styles"
+  ],
+  "Submenu & overlay background": [
+    "Sous-menu et calque d’arrière-plan"
+  ],
+  "Submenu & overlay text": [
+    "Sous-menu et calque de texte"
+  ],
+  "Submenus": [
+    "Sous-menus"
+  ],
+  "Submit": [
+    "Envoyer"
+  ],
+  "Subtitles": [
+    "Sous-titres"
+  ],
+  "Suspendisse commodo neque lacus, a dictum orci interdum et.": [
+    "Suspendisse commodo neque lacus, a dictum orci interdum et."
+  ],
+  "Switch to '%s'": [
+    "Changer pour « %s »"
+  ],
+  "Table": [
+    "Tableau"
+  ],
+  "Table caption text": [
+    "Texte de légende du tableau"
+  ],
+  "Table settings": [
+    "Réglages du tableau"
+  ],
+  "Tablet": [
+    "Tablette"
+  ],
+  "Tag Cloud settings": [
+    "Réglages du nuage d’étiquettes"
+  ],
+  "Tag Link": [
+    "Lien d’étiquette"
+  ],
+  "Taxonomy": [
+    "Taxonomie"
+  ],
+  "Template Part": [
+    "Élément de modèle",
+    "Éléments de modèles"
+  ],
+  "Template Part \"%s\" inserted.": [
+    "L’élément de modèle « %s » a été inséré."
+  ],
+  "Template part has been deleted or is unavailable: %s": [
+    "L’élément de modèle a été supprimé ou n’est pas disponible : %s"
+  ],
+  "Term Description": [
+    "Description du terme"
+  ],
+  "Term items not found.": [
+    "Termes introuvables."
+  ],
+  "Text": [
+    "Texte"
+  ],
+  "Text labelling a interface as controlling a given layout property (eg: margin) for a given screen size.\u0004Controls the %1$s property for %2$s viewports.": [
+    "Contrôler la propriété %1$s pour les surfaces de fenêtre %2$s."
+  ],
+  "Text link settings": [
+    "Réglages du lien textuel"
+  ],
+  "Text tracks": [
+    "Pistes de texte"
+  ],
+  "That might be a simple arrangement like consecutive paragraphs in a blog post, or a more elaborate composition that includes image galleries, videos, tables, columns, and any other block types.": [
+    "Ça peut être un simple agencement comme des paragraphes consécutifs dans un article de blog, ou une combinaison plus élaborée qui comprend des galeries d’images, des vidéos, des tableaux, des colonnes ou n’importe quel autre type de bloc."
+  ],
+  "The <article> element should represent a self contained, syndicatable portion of the document.": [
+    "L’élément <article> doit représenter une partie autonome et distribuable du document."
+  ],
+  "The <aside> element should represent a portion of a document whose content is only indirectly related to the document's main content.": [
+    "L’élément <aside> doit représenter une partie d’un document dont le contenu est lié au contenu principal du document seulement de manière indirecte."
+  ],
+  "The <footer> element should represent a footer for its nearest sectioning element (e.g.: <section>, <article>, <main> etc.).": [
+    "L’élément <footer> doit représenter un pied de page pour l’élément de section le plus proche (par exemple : <section>, <article>, <main>, etc.)."
+  ],
+  "The <header> element should represent introductory content, typically a group of introductory or navigational aids.": [
+    "L‘élément <header> doit représenter un contenu de présentation, généralement destiné à une introduction ou à la navigation."
+  ],
+  "The <main> element should be used for the primary content of your document only. ": [
+    "L‘élément <main> doit être utilisé uniquement pour le contenu principal de votre document."
+  ],
+  "The <section> element should represent a standalone portion of the document that can't be better represented by another element.": [
+    "L’élément <section> doit représenter une partie autonome du document qui ne peut pas être mieux représentée par un autre élément."
+  ],
+  "The Footer template defines a page area that typically contains site credits, social links, or any other combination of blocks.": [
+    "Le modèle de pied de page définit une zone de page qui contient typiquement les crédits du site, des liens de réseaux sociaux, et tout autre combinaison de blocs."
+  ],
+  "The Header template defines a page area that typically contains a title, logo, and main navigation.": [
+    "Le modèle d’en-tête définit une zone de page qui contient typiquement un titre, un logo, ainsi que la navigation principale."
+  ],
+  "The current poster image url is %s": [
+    "L’URL de l’image de bannière actuelle est %s"
+  ],
+  "The description will be displayed in the menu if the current theme supports it.": [
+    "La description sera affichée dans le menu si le thème actuel l’accepte."
+  ],
+  "The excerpt is hidden.": [
+    "L’extrait est masqué"
+  ],
+  "The excerpt is visible.": [
+    "L’extrait est visible"
+  ],
+  "The media file has been replaced": [
+    "Le fichier média a été remplacé."
+  ],
+  "The wren<br>Earns his living<br>Noiselessly.": [
+    "Une plume donne au chapeau<br>Un air de légèreté<br>La cheminée fume."
+  ],
+  "There is no excerpt because this is a protected post.": [
+    "Il n’y a pas d’extrait, car cette publication est protégée."
+  ],
+  "There is no poster image currently selected": [
+    "Il n’y a actuellement aucune image de bannière sélectionnée"
+  ],
+  "This block contains unexpected or invalid content.": [
+    "Ce bloc contient du contenu non valide ou inattendu."
+  ],
+  "This block has encountered an error and cannot be previewed.": [
+    "Ce bloc a rencontré une erreur et ne peut pas être prévisualisé."
+  ],
+  "This color combination may be hard for people to read.": [
+    "Cette combinaison de couleurs risque d’être difficile à lire."
+  ],
+  "This color combination may be hard for people to read. Try using a brighter background color and/or a darker %s.": [
+    "Cette combinaison de couleurs est difficilement lisible. Essayez d’utiliser une couleur d’arrière-plan plus claire et/ou une %s plus sombre."
+  ],
+  "This color combination may be hard for people to read. Try using a darker background color and/or a brighter %s.": [
+    "Cette combinaison de couleurs est difficilement lisible. Essayez d’utiliser une couleur d’arrière-plan plus sombre et/ou une %s plus claire."
+  ],
+  "This column count exceeds the recommended amount and may cause visual breakage.": [
+    "Ce nombre de colonnes dépasse la quantité recommandée et peut provoquer une rupture visuelle."
+  ],
+  "This content is password protected.": [
+    "Ce contenu est protégé par un mot de passe."
+  ],
+  "This embed may not preserve its aspect ratio when the browser is resized.": [
+    "Ce contenu embarqué pourrait perdre son rapport hauteur/largeur lorsque le navigateur est redimensionné."
+  ],
+  "This embed will preserve its aspect ratio when the browser is resized.": [
+    "Ce contenu embarqué conservera son rapport hauteur/largeur lorsque le navigateur est redimensionné."
+  ],
+  "This image has an empty alt attribute": [
+    "L’attribut alt de cette image est vide."
+  ],
+  "This image has an empty alt attribute; its file name is %s": [
+    "L’attribut alt de cette image est vide, son nom de fichier est %s."
+  ],
+  "This is the Post Content block, it will display all the blocks in any single post or page.": [
+    "Ceci est le bloc de contenu de publication, il affichera tous les blocs sur n’importe quelle publication unique ou page."
+  ],
+  "This is the Post Excerpt block, it will display the excerpt from single posts.": [
+    "C’est le bloc extrait de publication, il affiche l’extrait provenant de la publication seule."
+  ],
+  "This item has been deleted, or is a draft": [
+    "Cet élément a été supprimé ou est un brouillon"
+  ],
+  "This item is missing a link": [
+    "Il manque un lien à cet élément"
+  ],
+  "Three columns; equal split": [
+    "Trois colonnes ; largeur égale"
+  ],
+  "Three columns; wide center column": [
+    "Trois colonnes ; colonne centrale large"
+  ],
+  "Three.": [
+    "Trois."
+  ],
+  "Thumbnail": [
+    "Miniature"
+  ],
+  "Thumbnails are cropped to align.": [
+    "Les miniatures sont recadrées pour s’aligner."
+  ],
+  "Thumbnails are not cropped.": [
+    "Les miniatures ne sont pas recadrées."
+  ],
+  "Title": [
+    "Titre"
+  ],
+  "Title & Date": [
+    "Titre et date"
+  ],
+  "Title & Excerpt": [
+    "Titre et extrait"
+  ],
+  "Title attribute": [
+    "Attribut de titre"
+  ],
+  "Title of track": [
+    "Titre de la piste"
+  ],
+  "Title, Date, & Excerpt": [
+    "Titre, date et extrait"
+  ],
+  "To edit this block, you need permission to upload media.": [
+    "Pour modifier ce bloc vous devez avoir les droits de téléverser des médias."
+  ],
+  "To edit this navigation menu, convert it to single page links. This allows you to add, re-order, remove items, or edit their labels.": [
+    "Pour modifier ce menu de navigation, convertissez-le en de simples liens. Cela vous permet d’ajouter, réordonner et supprimer des éléments, ou de modifier leur libellé."
+  ],
+  "To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.": [
+    "Pour faire vos premiers pas en modération, modification et suppression des commentaires, veuillez consulter l’écran « Commentaires » sur le tableau de bord."
+  ],
+  "Toggle between using the same value for all screen sizes or using a unique value per screen size.": [
+    "Permuter entre l’utilisation de la même valeur pour toutes les tailles d’écrans ou l’utilisation d’une valeur unique pour chaque taille."
+  ],
+  "Toggle full height": [
+    "Permuter sur toute la hauteur"
+  ],
+  "Toggle search label": [
+    "Afficher/masquer le libellé de recherche"
+  ],
+  "Toggle to show a large initial letter.": [
+    "Cliquez pour afficher une lettrine."
+  ],
+  "Toggle to use the global query context that is set with the current template, such as an archive or search. Disable to customize the settings independently.": [
+    "Cliquez pour utiliser le contexte de requête global réglé sur le modèle courant, comme par exemple une archive ou des résultats de recherche. Désactivez-le pour personnaliser indépendamment les réglages."
+  ],
+  "Tools": [
+    "Outils"
+  ],
+  "Tools provide different interactions for selecting, navigating, and editing blocks. Toggle between select and edit by pressing Escape and Enter.": [
+    "Les outils fournissent différentes interactions pour la sélection, la navigation et la modification des blocs. Basculez entre le mode sélection et le mode modification en appuyant sur Échap et Entrée."
+  ],
+  "Top left": [
+    "En haut à gauche"
+  ],
+  "Top right": [
+    "En haut à droite"
+  ],
+  "Tracks can be subtitles, captions, chapters, or descriptions. They help make your content more accessible to a wider range of users.": [
+    "Les pistes peuvent être des sous-titres, des légendes, des chapitres ou des descriptions. Elles contribuent à rendre votre contenu accessible à un plus large éventail d’utilisateurs et utilisatrices."
+  ],
+  "Transform": [
+    "Transformer"
+  ],
+  "Transform to": [
+    "Transformer en :"
+  ],
+  "Transform to %s": [
+    "Transformer en %s"
+  ],
+  "Transform to variation": [
+    "Choisir une variation"
+  ],
+  "Transparent text may be hard for people to read.": [
+    "Le texte transparent peut être difficile à lire pour les internautes."
+  ],
+  "Two columns; equal split": [
+    "Deux colonnes ; largeur égale"
+  ],
+  "Two columns; one-third, two-thirds split": [
+    "Deux colonnes : un tiers/deux tiers"
+  ],
+  "Two columns; two-thirds, one-third split": [
+    "Deux colonnes : deux tiers/un tiers"
+  ],
+  "Two.": [
+    "Deux."
+  ],
+  "Type / to choose a block": [
+    "Saisir « / » pour choisir un bloc"
+  ],
+  "Typography": [
+    "Typographie"
+  ],
+  "URL": [
+    "URL"
+  ],
+  "Unable to create Navigation Menu \"%s\".": [
+    "Impossible de créer le menu de navigation \"%s\"."
+  ],
+  "Unable to fetch classic menu \"%s\" from API.": [
+    "Impossible d’extraire le menu classique \"%s\" de l’API."
+  ],
+  "Uncategorized": [
+    "Non classé"
+  ],
+  "Underline": [
+    "Souligner"
+  ],
+  "Ungrouping blocks from within a Group block back into individual blocks within the Editor \u0004Ungroup": [
+    "Dégrouper"
+  ],
+  "Unlink": [
+    "Supprimer le lien"
+  ],
+  "Unlink Radii": [
+    "Retirer le rayon du lien"
+  ],
+  "Unlock": [
+    "Déverrouiller"
+  ],
+  "Unlock %s": [
+    "Déverrouiller « %s »"
+  ],
+  "Unordered": [
+    "Non ordonnée"
+  ],
+  "Untitled Template Part": [
+    "Élément de modèle sans titre"
+  ],
+  "Unwrap": [
+    "Déplier"
+  ],
+  "Upload": [
+    "Téléverser"
+  ],
+  "Upload a file or pick one from your media library.": [
+    "Téléversez un fichier ou choisissez-en un dans votre médiathèque."
+  ],
+  "Upload a media file or pick one from your media library.": [
+    "Téléversez un fichier média ou choisissez-en un dans votre médiathèque."
+  ],
+  "Upload a video file, pick one from your media library, or add one with a URL.": [
+    "Téléversez un fichier vidéo, choisissez-en un dans votre médiathèque ou ajoutez-en un avec une URL."
+  ],
+  "Upload an audio file, pick one from your media library, or add one with a URL.": [
+    "Téléversez un fichier son, choisissez-en un dans votre médiathèque ou ajoutez-en un avec une URL."
+  ],
+  "Upload an image file, pick one from your media library, or add one with a URL.": [
+    "Téléversez un fichier image, choisissez-en un dans votre médiathèque ou ajoutez-en un avec une URL."
+  ],
+  "Upload external image": [
+    "Téléverser une image externe"
+  ],
+  "Uppercase": [
+    "Majuscules"
+  ],
+  "Use URL": [
+    "Utiliser l’URL"
+  ],
+  "Use as site icon": [
+    "Utiliser comme icône de site"
+  ],
+  "Use button with icon": [
+    "Utiliser un bouton avec une icône"
+  ],
+  "Use featured image": [
+    "Utiliser l’image mise en avant"
+  ],
+  "Use left and right arrow keys to move through blocks": [
+    "Utilisez les flèches gauche et droite du clavier pour vous déplacer dans les blocs"
+  ],
+  "Use the Tab key and Arrow keys to choose new block location. Use Left and Right Arrow keys to move between nesting levels. Once location is selected press Enter or Space to move the block.": [
+    "Utilisez la touche de tabulation et les flèches pour choisir un nouvel emplacement de bloc. Utilisez les flèches gauche et droite pour vous déplacer entre les niveaux d’imbrications. Une fois qu’un emplacement est sélectionné, appuyez sur la touche Entrée ou Espace pour déplacer le bloc."
+  ],
+  "Use the same %s on all screensizes.": [
+    "Utiliser le même %s pour toutes les tailles d’écrans."
+  ],
+  "User": [
+    "Compte"
+  ],
+  "Verse text": [
+    "Texte du couplet"
+  ],
+  "Version": [
+    "Version"
+  ],
+  "Vertical alignment": [
+    "Alignement vertical"
+  ],
+  "Very light gray to cyan bluish gray": [
+    "Gris très clair vers gris-cyan bleuissant"
+  ],
+  "Video": [
+    "Vidéo"
+  ],
+  "Video caption text": [
+    "Texte de légende de la vidéo"
+  ],
+  "Video settings": [
+    "Réglages vidéo"
+  ],
+  "Vivid cyan blue": [
+    "Bleu cyan vif"
+  ],
+  "Vivid cyan blue to vivid purple": [
+    "Bleu-cyan vif vers violet vif"
+  ],
+  "Vivid green cyan": [
+    "Cyan vert vif"
+  ],
+  "Vivid purple": [
+    "Violet éclatant"
+  ],
+  "Vivid red": [
+    "Rouge vif"
+  ],
+  "WHAT was he doing, the great god Pan,\n\tDown in the reeds by the river?\nSpreading ruin and scattering ban,\nSplashing and paddling with hoofs of a goat,\nAnd breaking the golden lilies afloat\n    With the dragon-fly on the river.": [
+    "Du temps que régnait le Grand Pan,\n\tLes dieux protégeaient les ivrognes\nDes tas de génies titubants\n\tAu nez rouge, à la rouge trogne.\nDès qu’un homme vidait les cruchons,\n\tQu’un sac à vin faisait carousse\nIls venaient en bande à ses trousses\n\tCompter les bouchons."
+  ],
+  "Week": [
+    "Semaine"
+  ],
+  "Welcome to the wonderful world of blocks…": [
+    "Bienvenue dans le monde merveilleux des blocs…"
+  ],
+  "While writing, you can press <kbd>/</kbd> to quickly insert new blocks.": [
+    "Tandis que vous écrivez, vous pouvez utiliser la touche <kbd>/</kbd> pour insérer de nouveaux blocs."
+  ],
+  "White": [
+    "Blanc"
+  ],
+  "Wide": [
+    "Large"
+  ],
+  "Wide width": [
+    "Grande largeur"
+  ],
+  "Width": [
+    "Largeur"
+  ],
+
+  "Width settings": [
+    "Réglages de largeur"
+  ],
+  "Wood thrush singing in Central Park, NYC.": [
+    "Le chant de la grive des bois à Central Park, New York."
+  ],
+  "WordPress contains different types of content and they are divided into collections called \"Post types\". By default there are a few different ones such as blog posts and pages, but plugins could add more.": [
+    "WordPress contient différents types de contenu divisés en collections appelées « Types de publications ». Par défaut, il en existe plusieurs, comme les articles de blog et les pages, mais les extensions peuvent en ajouter d’autres."
+  ],
+  "Write HTML…": [
+    "Écrire du HTML…"
+  ],
+  "Write byline…": [
+    "Écrire une signature…"
+  ],
+  "Write code…": [
+    "Rédigez du code…"
+  ],
+  "Write file name…": [
+    "Saisissez le nom du fichier…"
+  ],
+  "Write gallery caption…": [
+    "Écrire la légende de la galerie…"
+  ],
+  "Write preformatted text…": [
+    "Rédigez du texte préformaté…"
+  ],
+  "Write shortcode here…": [
+    "Placez le code court ici…"
+  ],
+  "Write site tagline…": [
+    "Écrivez un slogan de site…"
+  ],
+  "Write site title…": [
+    "Écrivez un titre de site…"
+  ],
+  "Write title…": [
+    "Rédigez le titre…"
+  ],
+  "Write verse…": [
+    "Écrire un couplet…"
+  ],
+  "Year": [
+    "Année"
+  ],
+  "You are currently in edit mode. To return to the navigation mode, press Escape.": [
+    "Vous êtes actuellement en mode modification. Pour revenir au mode navigation, appuyez sur la touche Echap."
+  ],
+  "You are currently in navigation mode. Navigate blocks using the Tab key and Arrow keys. Use Left and Right Arrow keys to move between nesting levels. To exit navigation mode and edit the selected block, press Enter.": [
+    "Vous êtes actuellement dans le mode navigation. Utilisez la touche de tabulation et les flèches pour naviguer. Utilisez les flèches gauche et droite pour vous déplacer entre les niveaux d’imbrications. Pour quitter le mode navigation et modifier le bloc sélectionné, appuyez sur la touche entrée."
+  ],
+  "You do not have permission to create Navigation Menus.": [
+    "Vous n’avez pas les droits pour créer des menus de navigation."
+  ],
+  "You do not have permission to edit this Menu. Any changes made will not be saved.": [
+    "Vous n‘avez pas les droits pour modifier ce menu. Les modifications apportées ne seront pas enregistrées."
+  ],
+  "Your site does not have any posts, so there is nothing to display here at the moment.": [
+    "Votre site n‘a aucune publication, il n’y a donc rien à afficher ici pour le moment."
+  ],
+  "Your site doesn’t include support for the \"%s\" block. You can leave this block intact or remove it entirely.": [
+    "Votre site ne propose pas de support pour le bloc « %s ». Vous pouvez laisser ce bloc tel quel ou le retirer complètement."
+  ],
+  "Your site doesn’t include support for the \"%s\" block. You can leave this block intact, convert its content to a Custom HTML block, or remove it entirely.": [
+    "Votre site ne propose pas de support pour le bloc « %s ». Vous pouvez laisser ce bloc tel quel, convertir son contenu en bloc HTML personnalisé ou le retirer complètement."
+  ],
+  "Z → A": [
+    "Z \t A"
+  ],
+  "Zoom": [
+    "Zoom"
+  ],
+  "audio": [
+    "son"
+  ],
+  "block example\u0004Home Link": [
+    "Lien vers la page d’accueil"
+  ],
+  "block style\u0004Default": [
+    "Par défaut"
+  ],
+  "block title\u0004Comment Author": [
+    "Auteur ou autrice du commentaire"
+  ],
+  "block title\u0004Comment Content": [
+    "Contenu du commentaire"
+  ],
+  "block title\u0004Comment Date": [
+    "Date du commentaire"
+  ],
+  "block title\u0004Embed": [
+    "Contenu embarqué"
+  ],
+  "blocks\u0004Most used": [
+    "Les plus utilisés"
+  ],
+  "blog": [
+    "blog"
+  ],
+  "bookmark": [
+    "marque-page"
+  ],
+  "button label\u0004Convert to link": [
+    "Convertir en lien"
+  ],
+  "button label\u0004Download": [
+    "Télécharger"
+  ],
+  "button label\u0004Embed": [
+    "Embarquer"
+  ],
+  "button label\u0004Try again": [
+    "Réessayer"
+  ],
+  "by %s": [
+    "par %s"
+  ],
+  "content placeholder\u0004Content…": [
+    "Contenu…"
+  ],
+  "directly add the only allowed block\u0004Add %s": [
+    "Ajouter %s"
+  ],
+  "ebook": [
+    "ebook"
+  ],
+  "editor button\u0004Left to right": [
+    "Gauche à droite"
+  ],
+  "font size name\u0004Huge": [
+    "Énorme"
+  ],
+  "font size name\u0004Large": [
+    "Large"
+  ],
+  "font size name\u0004Medium": [
+    "Moyenne"
+  ],
+  "font size name\u0004Normal": [
+    "Normale"
+  ],
+  "font size name\u0004Small": [
+    "Petite"
+  ],
+  "font style\u0004Italic": [
+    "Italique"
+  ],
+  "font style\u0004Regular": [
+    "Normal"
+  ],
+  "font weight\u0004Black": [
+    "Noir"
+  ],
+  "font weight\u0004Bold": [
+    "Gras"
+  ],
+  "font weight\u0004Extra Bold": [
+    "Extra gras"
+  ],
+  "font weight\u0004Extra Light": [
+    "Extra léger"
+  ],
+  "font weight\u0004Light": [
+    "Léger"
+  ],
+  "font weight\u0004Medium": [
+    "Moyen"
+  ],
+  "font weight\u0004Regular": [
+    "Normal"
+  ],
+  "font weight\u0004Semi Bold": [
+    "Demi gras"
+  ],
+  "font weight\u0004Thin": [
+    "Fin"
+  ],
+  "https://wordpress.org/support/article/embeds/": [
+    "https://wordpress.org/support/article/embeds/"
+  ],
+  "https://wordpress.org/support/article/formatting-date-and-time/": [
+    "https://fr.wordpress.org/support/article/formatting-date-and-time/"
+  ],
+  "https://wordpress.org/support/article/page-jumps/": [
+    "https://wordpress.org/support/article/page-jumps/"
+  ],
+  "image": [
+    "image"
+  ],
+  "image %1$d of %2$d in gallery": [
+    "image %1$d sur %2$d dans la galerie"
+  ],
+  "imperative verb\u0004Resolve": [
+    "Résoudre"
+  ],
+  "keyboard key\u0004Backspace": [
+    "Retour"
+  ],
+  "keyboard key\u0004Space": [
+    "Espace"
+  ],
+  "link color": [
+    "couleur du lien"
+  ],
+  "long date format\u0004F j, Y": [
+    "j F Y"
+  ],
+  "medium date format\u0004M j, Y": [
+    "j M Y"
+  ],
+  "medium date format with time\u0004M j, Y g:i A": [
+    "d F Y G\\hi"
+  ],
+  "music": [
+    "musique"
+  ],
+  "navigation link preview example\u0004Example Link": [
+    "Lien d’exemple"
+  ],
+  "noun; Audio block parameter\u0004Preload": [
+    "Préchargement"
+  ],
+  "post": [
+    "contenu"
+  ],
+  "short date format\u0004n/j/Y": [
+    "j/n/Y"
+  ],
+  "short date format with time\u0004n/j/Y g:i A": [
+    "d/n/Y G\\hi"
+  ],
+  "single horizontal line\u0004Row": [
+    "Rangée"
+  ],
+  "social": [
+    "social"
+  ],
+  "survey": [
+    "enquête"
+  ],
+  "text color": [
+    "couleur du texte"
+  ],
+  "verb\u0004Group": [
+    "Grouper"
+  ],
+  "verb\u0004Stack": [
+    "Empiler"
+  ],
+  "video": [
+    "vidéo"
+  ],
+  "— Kobayashi Issa (一茶)": [
+    "— Paul Éluard (<i>Onze Haï-kaïs</i>, 1920)"
+  ]
+}

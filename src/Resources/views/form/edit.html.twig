@@ -1,0 +1,51 @@
+{% form_theme form with blockType.configureAdminFormTheme()|merge([
+    '@EasyGutenberg/crud/form_theme.html.twig',
+]) %}
+
+<div class="card">
+    <div class="card-body">
+        {% if form.vars.tabbed %}
+        <div class="nav-tabs-custom form-tabs">
+            <ul class="nav nav-tabs">
+                {% for tab_name, tab_config in form.vars.tabs %}
+                    <li class="nav-item">
+                        <a class="nav-link {% if tab_config.active %}active{% endif %}" href="#{{ tab_config['id'] }}" id="{{ tab_config['id'] }}-tab" data-bs-toggle="tab">
+                            {%- if tab_config.icon|default(false) -%}
+                                <i class="fa fa-fw fa-{{ tab_config.icon }}"></i>
+                            {%- endif -%}
+                            {{ tab_config['label']|trans }}
+                            {%- if tab_config.errors > 0 -%}
+                                <span class="badge badge-danger" title="{{ 'form.tab.error_badge_title'|trans({'%count%': tab_config.errors}, 'EasyAdminBundle') }}">
+                                    {{- tab_config.errors -}}
+                                </span>
+                            {%- endif -%}
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+            <div class="tab-content">
+                {% for tab_name, tab_config in form.vars.tabs %}
+                <div id="{{ tab_config['id'] }}" class="tab-pane {% if tab_config.active %}active{% endif %} {{ tab_config['css_class']|default('') }}">
+                    {% if tab_config['help']|default(false) %}
+                        <div class="content-header-help tab-help">
+                            {{ tab_config['help']|trans|raw }}
+                        </div>
+                    {% endif %}
+
+                    <div class="row">
+                        {% for name, children in tab_config.children %}
+                            {{ form_row(children) }}
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% else %}
+            {{ form_rest(form) }}
+        {% endif %}
+    </div>
+    <script>
+      document.dispatchEvent(new Event('ea.collection.item-added'));
+    </script>
+</div>

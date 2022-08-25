@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services
+        http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <parameters>
+        <parameter key="easy_gutenberg.embed.cache.duration">3600</parameter>
+        <parameter key="easy_gutenberg.embed.maxwidth">1000</parameter>
+        <parameter key="easy_gutenberg.embed.maxheight"></parameter>
+    </parameters>
+    <services>
+        <defaults autowire="true" autoconfigure="true"/>
+        <instanceof id="Adeliom\EasyGutenbergBundle\Blocks\BlockTypeInterface" autowire="true">
+            <tag name="easy_gutenberg.block"/>
+        </instanceof>
+
+        <service id="easy_gutenberg.blocks.block_type_registry" class="Adeliom\EasyGutenbergBundle\Blocks\BlockTypeRegistry" public="true" autowire="true">
+            <argument type="tagged_iterator" tag="easy_gutenberg.block"/>
+        </service>
+        <service id="Adeliom\EasyGutenbergBundle\Blocks\BlockTypeRegistry" alias="easy_gutenberg.blocks.block_type_registry"></service>
+
+        <service id="easy_gutenberg.services.oembed_service" class="Adeliom\EasyGutenbergBundle\Services\OEmbedService" public="true" autowire="true"></service>
+        <service id="Adeliom\EasyGutenbergBundle\Services\OEmbedService" alias="easy_gutenberg.services.oembed_service"></service>
+
+        <service id="easy_gutenberg.blocks.content_renderer" class="Adeliom\EasyGutenbergBundle\Blocks\ContentRenderer" public="true" autowire="true"></service>
+        <service id="Adeliom\EasyGutenbergBundle\Blocks\ContentRenderer" alias="easy_gutenberg.blocks.content_renderer"></service>
+
+        <service id="easy_gutenberg.blocks.parser" class="Adeliom\EasyGutenbergBundle\Blocks\BlockParser" public="true" autowire="true"></service>
+        <service id="Adeliom\EasyGutenbergBundle\Blocks\BlockParser" alias="easy_gutenberg.blocks.parser"></service>
+
+
+        <service id="Adeliom\EasyGutenbergBundle\Controllers\OEmbedController" autoconfigure="true" autowire="true">
+            <tag name="controller.service_arguments"/>
+        </service>
+
+        <service id="Adeliom\EasyGutenbergBundle\Controllers\BlockRendererController" autoconfigure="true" autowire="true">
+            <tag name="controller.service_arguments"/>
+        </service>
+
+        <service id="Adeliom\EasyGutenbergBundle\Requests\BlockRenderRequest" autoconfigure="true" autowire="true"></service>
+
+        <service id="Adeliom\EasyGutenbergBundle\Admin\Field\Configurator\GutenbergConfigurator" autoconfigure="true" autowire="true"></service>
+
+        <service id="Adeliom\EasyGutenbergBundle\Validator\ValidGutenbergValidator" autoconfigure="true" autowire="true"></service>
+        <service id="Adeliom\EasyGutenbergBundle\Form\GutenbergType" autoconfigure="true" autowire="true"></service>
+
+
+        <service id="Adeliom\EasyGutenbergBundle\Twig\EasyGutenbergExtension" public="true">
+            <tag name="twig.extension"/>
+        </service>
+        <service id="easy_gutenberg.twig_extension" alias="Adeliom\EasyGutenbergBundle\Twig\EasyGutenbergExtension"></service>
+
+        <service id="Adeliom\EasyGutenbergBundle\Blocks\Helper" public="true">
+            <argument type="service" id="twig"/>
+            <argument type="service" id="event_dispatcher"/>
+            <argument type="service" id="easy_gutenberg.blocks.block_type_registry"/>
+            <argument type="service" id="easy_gutenberg.blocks.content_renderer"/>
+            <argument type="service" id="easy_gutenberg.blocks.parser"/>
+            <tag name="twig.runtime"/>
+        </service>
+        <service id="easy_gutenberg.block_helper" alias="Adeliom\EasyGutenbergBundle\Blocks\Helper"></service>
+
+        <service id="easy_gutenberg.maker.make_block" class="Adeliom\EasyGutenbergBundle\Maker\MakeBlock" public="false">
+            <argument type="service" id="maker.file_manager"/>
+            <tag name="maker.command"/>
+        </service>
+
+        <service id="Adeliom\EasyGutenbergBundle\DataCollector\GutenbergCollector">
+            <argument type="service" id="easy_gutenberg.block_helper"/>
+            <tag name="data_collector"
+                 id="Adeliom\EasyGutenbergBundle\DataCollector\GutenbergCollector"
+                 template='@EasyGutenberg/profiler/collector.html.twig'
+            />
+        </service>
+    </services>
+</container>
