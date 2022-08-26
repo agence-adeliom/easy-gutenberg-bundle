@@ -119,6 +119,18 @@ class TwoColsType extends AbstractBlockType
 }
 ```
 
+### Frontend usage
+
+In your template you can use these functions :
+
+```php
+# This convert and render the content 
+{{ easy_gutenberg(page.content) }}
+
+# This render the blocks's assets must be called after 'easy_gutenberg'
+{{ easy_gutenberg_assets() }}
+```
+
 ### Extra features
 
 #### Add frontend assets
