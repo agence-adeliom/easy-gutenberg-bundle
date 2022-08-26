@@ -4,7 +4,9 @@ const oembedHandler = async (options) => {
     const [path, query] = options.path.split('?')
     const params = qs.parse(query)
     const url = new URL('/bundles/easy-gutenberg/oembed', window.location.origin)
-    url.searchParams.append('url', params.url)
+    if(params.url){
+        url.searchParams.append('url', <string>params.url)
+    }
     const res = await fetch(url.toString())
     return await res.json()
 }

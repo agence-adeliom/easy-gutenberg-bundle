@@ -16,7 +16,7 @@ class <?php echo $class_name; ?> extends AbstractBlockType<?php echo "\n"; ?>
         // Implement with your fields
     }
 
-    public function getName(): string
+    public static function getName(): string
     {
         return '<?php echo $name; ?>';
     }
@@ -26,12 +26,12 @@ class <?php echo $class_name; ?> extends AbstractBlockType<?php echo "\n"; ?>
         return '<?php echo $description; ?>';
     }
 
-    public function getIcon(): string
+    public static function getIcon(): string
     {
         return '';
     }
 
-    public function getTemplate(): string
+    public static function getTemplate(): string
     {
         return "<?php echo $template_name; ?>";
     }
