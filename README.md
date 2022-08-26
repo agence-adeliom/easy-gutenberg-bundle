@@ -72,17 +72,157 @@ abstract class PageCrudController extends AbstractCrudController
         ...
 ```
 
-### Customize faq's root path
+### Create a new Block
 
-```yaml
-#config/packages/easy_faq.yaml
-easy_faq:
-  ...
-  page:
-    root_path: '/blog'
+```bash
+php bin/console make:gutenberg
 ```
-NOTE : You will need to clear your cache after change because the RouteLoader need to be cleared.
 
+Then setup your form field
+
+```php
+<?php
+
+namespace App\Blocks;
+
+use Adeliom\EasyGutenbergBundle\Blocks\AbstractBlockType;
+use Symfony\Component\Form\Extension\Core\Type\TextType;
+use Symfony\Component\Form\FormBuilderInterface;
+
+class TwoColsType extends AbstractBlockType
+{
+    public function buildBlock(FormBuilderInterface $builder, array $options): void
+    {
+        $builder->add("left_col", TextType::class, ["label" => 'Left column content']);
+        $builder->add("right_col", TextType::class, ["label" => 'Right column content']);
+    }
+
+    public static function getName(): string
+    {
+        return 'Two columns';
+    }
+
+    public static function getDescription(): string
+    {
+        return 'Make a two columns layout';
+    }
+
+    public static function getIcon(): string
+    {
+        return '';
+    }
+
+    public static function getTemplate(): string
+    {
+        return "blocks/two_cols.html.twig";
+    }
+}
+```
+
+### Extra features
+
+#### Add frontend assets
+
+```php
+    public static function configureAssets(): array
+    {
+        return [
+            'js' => [],
+            'css' => [],
+            'webpack' => [],
+        ];
+    }
+```
+
+#### Add backend assets
+
+```php
+    public static function configureAdminAssets(): array
+    {
+        return [
+            'js' => [],
+            'css' => [],
+        ];
+    }
+```
+
+#### Add extra form themes
+
+```php
+    public static function configureAdminFormTheme(): array
+    {
+        return [];
+    }
+```
+
+#### Specify a category
+
+The provided categories are:
+
+* common
+* text
+* media
+* design
+* widgets
+* theme
+* embed
+
+```php
+    public static function getCategory(): string
+    {
+        return 'common';
+    }
+```
+
+#### Specify variations
+
+```php
+    public static function getVariations(): array
+    {
+        return [
+            [
+                "name": 'variation_with_bg',
+                "isDefault": true,
+                "title": "Variation With background",
+                "icon": '',
+                "attributes": [
+                    "with-bg": true
+                ],
+            ]
+        ];
+    }
+```
+
+#### Specify extra attributes
+
+```php
+    public static function getAttributes(): array
+    {
+        return [
+             "with-bg" => ['type' => 'boolean']
+        ];
+    }
+```
+
+#### Specify supports
+
+Allowed supports are :
+
+* [anchor](https://developer.wordpress.org/block-editor/reference-guides/block-api/block-supports/#anchor)
+* [align](https://developer.wordpress.org/block-editor/reference-guides/block-api/block-supports/#align)
+* [alignWide](https://developer.wordpress.org/block-editor/reference-guides/block-api/block-supports/#alignWide)
+* [className](https://developer.wordpress.org/block-editor/reference-guides/block-api/block-supports/#className)
+* [lock](https://developer.wordpress.org/block-editor/reference-guides/block-api/block-supports/#lock)
+
+
+```php
+    public static function getSupports(): array
+    {
+        return array_merge(parent::getSupports(),[
+            'align' => false,
+        ]);
+    }
+```
 
 ## License
 
