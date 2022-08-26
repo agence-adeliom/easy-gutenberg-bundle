@@ -4,7 +4,7 @@
 
 <div class="card">
     <div class="card-body">
-        {% if form.vars.tabbed %}
+        {% if form.vars.tabbed|default(false) %}
         <div class="nav-tabs-custom form-tabs">
             <ul class="nav nav-tabs">
                 {% for tab_name, tab_config in form.vars.tabs %}
