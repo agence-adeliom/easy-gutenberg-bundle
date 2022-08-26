@@ -160,7 +160,7 @@ export default function EasyServerSideRender(this: any, props) {
                         if(!document.getElementById("tailwind-config")){
                             let script = document.createElement('script');
                             script.id = "tailwind-config"
-                            script.text = 'tailwind.config = { corePlugins: { preflight: false } }'
+                            script.text = 'if(typeof tailwind !== \'undefined\') { tailwind.config = { corePlugins: { preflight: false } }}'
                             document.head.append(script);
                         }
                         // @ts-ignore
