@@ -20,20 +20,24 @@ export const init = (
         return
     }
 
-    const editorSettings = { ...defaultSettings, ...settings };
-    const lang_fr = require("./lang/fr.json");
-    defaultI18n.setLocaleData(lang_fr);
+    const doInit = (): void => {
+        fetch('/bundles/easy-gutenberg/fetch-blocks', {headers: {accept: 'application/json'}}).then((response: Response) => response.json()).then((data): void => {
+            for (const [key, options] of Object.entries(data)) {
+                registerServerBlockType(key, options)
+            }
 
-    fetch('/bundles/easy-gutenberg/fetch-blocks', {
-        headers: {
-            'Accept': 'application/json'
+            initializeEditor(element, {...defaultSettings, ...settings})
+        });
+    };
+
+    fetch('/bundles/easygutenberg/translations/' + document.documentElement.lang + '.json', {redirect: 'manual'}).then((response: Response): void => {
+        if (response.ok) {
+            response.json().then(translation => {
+                defaultI18n.setLocaleData(translation.locale_data.messages)
+                doInit()
+            });
+        } else {
+            doInit()
         }
-    }).then((response) => response.json())
-    .then((data) => {
-        for (const [key, options] of Object.entries(data)) {
-            registerServerBlockType(key, options);
-        }
-        initializeEditor(element, editorSettings)
     })
-
 }
