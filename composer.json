@@ -40,7 +40,7 @@
             "include/wp.php"
         ]
     },
-    "minimum-stability" : "dev",
+    "minimum-stability": "alpha",
     "repositories": [
         {
             "type": "path",
