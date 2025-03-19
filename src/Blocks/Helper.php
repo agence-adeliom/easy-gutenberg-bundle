@@ -4,6 +4,9 @@ declare(strict_types=1);
 
 namespace Adeliom\EasyGutenbergBundle\Blocks;
 
+use Adeliom\EasyBlockBundle\Event\ParseBlockEvent;
+use Adeliom\EasyBlockBundle\Event\PostBlockEvent;
+use Adeliom\EasyBlockBundle\Event\PreBlockEvent;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 use Symfony\Component\EventDispatcher\GenericEvent;
 use Twig\Environment;
@@ -23,29 +26,13 @@ class Helper
         'webpack' => [],
     ];
 
-    private array $traces = [];
-    /**
-     * @readonly
-     */
-    private \Twig\Environment $twig;
-    /**
-     * @readonly
-     */
-    private \Symfony\Component\EventDispatcher\EventDispatcherInterface $eventDispatcher;
-    /**
-     * @readonly
-     */
-    private BlockTypeRegistry $collection;
-    private ContentRenderer $renderer;
-    private BlockParser $parser;
-
-    public function __construct(Environment $twig, EventDispatcherInterface $eventDispatcher, BlockTypeRegistry $collection, ContentRenderer $renderer, BlockParser $parser)
-    {
-        $this->twig = $twig;
-        $this->eventDispatcher = $eventDispatcher;
-        $this->collection = $collection;
-        $this->renderer = $renderer;
-        $this->parser = $parser;
+    public function __construct(
+        private readonly Environment $twig,
+        private readonly EventDispatcherInterface $eventDispatcher,
+        private readonly BlockTypeRegistry $collection,
+        private readonly ContentRenderer $renderer,
+        private readonly BlockParser $parser,
+    ) {
     }
 
     public function render_assets(): array|string
@@ -60,29 +47,29 @@ class Helper
     {
         $html = '';
 
-        if (!empty($assets['css']) && !empty($assets['css'])) {
+        if (! empty($assets['css']) && ! empty($assets['css'])) {
             $html .= "<style media='all'>";
             $assets['css'] = array_unique($assets['css']);
             foreach ($assets['css'] as $stylesheet) {
-                $html .= "\n".sprintf('@import url(%s);', $stylesheet);
+                $html .= "\n" . sprintf('@import url(%s);', $stylesheet);
             }
 
             $html .= "\n</style>";
         }
 
-        if (!empty($assets['js'])) {
+        if (! empty($assets['js'])) {
             $assets['js'] = array_unique($assets['js']);
             foreach ($assets['js'] as $javascript) {
-                $html .= "\n".sprintf('<script src="%s" type="text/javascript"></script>', $javascript);
+                $html .= "\n" . sprintf('<script src="%s" type="text/javascript"></script>', $javascript);
             }
         }
 
-        if (!empty($assets['webpack'])) {
+        if (! empty($assets['webpack'])) {
             $assets['webpack'] = array_unique($assets['webpack']);
             foreach ($assets['webpack'] as $webpack) {
                 try {
-                    $html .= "\n".$this->twig->createTemplate(sprintf("{{ encore_entry_link_tags('%s') }}", $webpack))->render();
-                    $html .= "\n".$this->twig->createTemplate(sprintf("{{ encore_entry_script_tags('%s') }}", $webpack))->render();
+                    $html .= "\n" . $this->twig->createTemplate(sprintf("{{ encore_entry_link_tags('%s') }}", $webpack))->render();
+                    $html .= "\n" . $this->twig->createTemplate(sprintf("{{ encore_entry_script_tags('%s') }}", $webpack))->render();
                 } catch (LoaderError|SyntaxError $exception) {
                     $html .= '';
                 }
@@ -109,31 +96,31 @@ class Helper
             $assets = $blockMetas::configureAssets();
             $attributes = $block->attributes;
 
-            $parseBlockEvent = new GenericEvent(null, ['attributes' => $attributes, 'block' => $block, 'assets' => $assets]);
+            $parseBlockEvent = new ParseBlockEvent(['attributes' => $attributes, 'block' => $block, 'assets' => $assets]);
             /**
-             * @var GenericEvent $result;
+             * @var GenericEvent $result ;
              */
-            $parseBlockEventResult = $this->eventDispatcher->dispatch($parseBlockEvent, 'easy_gutenberg.parse_block');
+            $parseBlockEventResult = $this->eventDispatcher->dispatch($parseBlockEvent);
 
             /** @var Block $block */
-            $block = $parseBlockEventResult->getArgument('block');
-            $attributes = $parseBlockEventResult->getArgument('attributes');
+            $block = $parseBlockEventResult->getSetting('block');
+            $attributes = $parseBlockEventResult->getSetting('attributes');
             unset($attributes['mode']);
             $stats['attributes'] = $block->attributes = $attributes;
-            $stats['assets'] = $parseBlockEventResult->getArgument('assets');
+            $stats['assets'] = $parseBlockEventResult->getSetting('assets');
 
             $this->assets = array_merge_recursive($this->assets, $stats['assets']);
             $this->stopTracing($stats['id'], $stats);
         }
 
         /**
-         * @var GenericEvent $result;
+         * @var GenericEvent $result ;
          */
-        $preRenderBlocksEventResult = $this->eventDispatcher->dispatch(new GenericEvent(null, ['blocks' => $blocks]), 'easy_gutenberg.pre_render_blocks');
-        $content = $this->parser->serialize($preRenderBlocksEventResult->getArgument('blocks'));
-        $postRenderBlocksEventResult = $this->eventDispatcher->dispatch(new GenericEvent(null, ['content' => $content]), 'easy_gutenberg.post_render_blocks');
+        $preRenderBlocksEventResult = $this->eventDispatcher->dispatch(new PreBlockEvent($blocks));
+        $content = $this->parser->serialize($preRenderBlocksEventResult->getBlocks());
+        $postRenderBlocksEventResult = $this->eventDispatcher->dispatch(new PostBlockEvent($content));
 
-        return new Markup($this->renderer->render($postRenderBlocksEventResult->getArgument('content')), 'UTF-8');
+        return new Markup($this->renderer->render($postRenderBlocksEventResult->getContent()), 'UTF-8');
     }
 
     private function startTracing(Block $block): array
