@@ -10,7 +10,8 @@ Provide Wordpress's Gutenberg Editor into Easyadmin.
 
 | Repository Branch | Version | Symfony Compatibility | PHP Compatibility | Status                     |
 |-------------------|---------|-----------------------|-------------------|----------------------------|
-| `2.x`             | `2.x`   | `5.4`, and `6.x`      | `8.0.2` or higher | New features and bug fixes |
+| `3.x`             | `3.x`   | `6.4`, and `7.x`      | `8.2` or higher    | New features and bug fixes |
+| `2.x`             | `2.x`   | `5.4`, and `6.x`      | `8.0.2` or higher | Bug fixes                              |
 
 
 ## Installation with Symfony Flex
