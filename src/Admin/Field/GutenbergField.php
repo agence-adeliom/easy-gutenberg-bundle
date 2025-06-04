@@ -18,10 +18,7 @@ final class GutenbergField implements FieldInterface
 
     public const OPTION_RENDER_AS_HTML = TextField::OPTION_RENDER_AS_HTML;
 
-    /**
-     * @param TranslatableInterface|string|false|null $label
-     */
-    public static function new(string $propertyName, $label = null): self
+    public static function new(string $propertyName, ?string $label = null): self
     {
         return (new self())
             ->setProperty($propertyName)

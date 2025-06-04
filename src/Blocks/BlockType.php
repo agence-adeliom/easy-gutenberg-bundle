@@ -11,7 +11,7 @@ class BlockType implements BlockTypeInterface
     /** @var callable */
     public $renderCallback;
 
-    public function __construct(string $name, array $attributes = [], callable $renderCallback = null)
+    public function __construct(string $name, array $attributes = [], ?callable $renderCallback = null)
     {
         $this->name = $name;
         $this->attributes = $attributes;

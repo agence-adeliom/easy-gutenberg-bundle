@@ -18,7 +18,7 @@ class BlockTypeRegistry
         });
     }
 
-    public function register(string $name, array $attributes = [], callable $renderCallback = null)
+    public function register(string $name, array $attributes = [], ?callable $renderCallback = null)
     {
         $this->blockTypes[] = new BlockType($name, $attributes, $renderCallback);
     }

@@ -101,7 +101,7 @@ abstract class AbstractBlockType extends AbstractType implements BlockTypeInterf
         return [];
     }
 
-    public function supports(string $objectClass, $instance = null): bool
+    public function supports(string $objectClass, mixed $instance = null): bool
     {
         return true;
     }

@@ -10,7 +10,7 @@ trait RendersContent
 
     abstract protected function getContentRenderer(): ContentRenderer;
 
-    public function render(string $property = null): string
+    public function render(?string $property = null): string
     {
         $property = $property ?: $this->contentProperty;
         $renderer = $this->getContentRenderer();
