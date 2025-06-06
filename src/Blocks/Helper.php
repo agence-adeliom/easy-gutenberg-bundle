@@ -26,6 +26,8 @@ class Helper
         'webpack' => [],
     ];
 
+    private array $traces = [];
+
     public function __construct(
         private readonly Environment $twig,
         private readonly EventDispatcherInterface $eventDispatcher,
